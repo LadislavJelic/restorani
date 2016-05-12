@@ -1,0 +1,2446 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.container {
+  width: 1300px; }
+
+/*.row {
+	margin: 0;
+}*/
+/*# sourceMappingURL=variables.css.map */
+h2 {
+  text-align: center;
+  color: #c8343f;
+  font-size: 13px;
+  padding: 10px 0;
+  margin-top: 4px; }
+
+.main-navigation-bar {
+  padding: 11px 0; }
+  .main-navigation-bar li {
+    width: 16%;
+    display: inline; }
+    .main-navigation-bar li a {
+      color: #999999;
+      padding: 0 17px;
+      font-size: 14px; }
+      .main-navigation-bar li a:hover {
+        text-decoration: none; }
+
+.social-links {
+  background-color: #222222; }
+
+.wrapper-lock {
+  background-color: #da3743;
+  padding: 6.5px 3px;
+  border-right: 1px solid #999999; }
+  .wrapper-lock img {
+    float: left; }
+  .wrapper-lock p {
+    font-size: 12px;
+    float: left;
+    margin: 9px 0 0 6px;
+    color: #fff; }
+
+.wrapper-language {
+  padding: 0;
+  padding-top: 10px;
+  position: absolute;
+  z-index: 1111;
+  padding-top: 0;
+  width: 100%;
+  border-right: 1px solid #999999; }
+  .wrapper-language h5 {
+    display: block;
+    text-align: center;
+    color: #999999; }
+  .wrapper-language div {
+    height: 38px;
+    display: none;
+    background-color: #222222;
+    padding-top: 10px; }
+    .wrapper-language div:hover {
+      cursor: pointer; }
+  .wrapper-language div:first-child {
+    display: block; }
+
+.link-social-icons {
+  margin: 4px 0 0 5px;
+  width: 100%; }
+  .link-social-icons li {
+    float: left;
+    display: inline;
+    width: 25%; }
+
+header {
+  position: relative; }
+
+.hamburger-menu {
+  display: none; }
+
+.hamburger-menu1 {
+  display: none; }
+
+@media only screen and (max-width: 1361px) {
+  .row {
+    margin: 0; }
+
+  .container {
+    width: 940px; }
+
+  .main-navigation-bar li a {
+    font-size: 13px;
+    padding: 0 24px 0 0; }
+
+  .wrapper-lock p {
+    font-size: 11px; }
+
+  .main-h2-in-site {
+    text-align: left;
+    border-bottom: 2px solid #fff; }
+
+  .wrapper-main-navigation-bar {
+    padding-left: 0; }
+
+  .wrapper-for-main-h1 {
+    width: 100%; } }
+@media only screen and (min-width: 1200px) and (max-width: 1361px) {
+  .main-navigation-bar li a {
+    padding: 0 12px 0 0; }
+
+  .wrapper-lock-and-social-links {
+    width: 58%; } }
+@media only screen and (min-width: 991px) and (max-width: 992px) {
+  .main-navigation-bar li a {
+    padding: 0 12px 0 0; } }
+@media only screen and (max-width: 991px) {
+  .container {
+    width: 750px; }
+
+  .main-navigation-bar {
+    padding: 9px 0; }
+    .main-navigation-bar li a {
+      font-size: 11px;
+      padding: 0 5px 0 0; }
+
+  .main-wrapper-logo {
+    width: 100px !Important;
+    height: 90px !Important; }
+    .main-wrapper-logo h6 {
+      font-size: 10px !Important;
+      margin-top: 3px !Important; }
+
+  .main-wrapper-logo img {
+    margin-top: 7px;
+    width: 62px;
+    height: 62px; }
+
+  .big-links {
+    margin-left: 102px !Important; }
+
+  .wrapper-lock {
+    padding: 7.5px 3px; }
+    .wrapper-lock img {
+      width: 15px;
+      height: 20px; }
+
+  .wrapper-language {
+    padding-top: 12px !Important; }
+
+  .wrapper-language {
+    padding-top: 0 !Important; }
+    .wrapper-language div {
+      height: 35px !Important;
+      font-size: 14px !Important; } }
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%; }
+
+  .main-navigation-bar {
+    background: #4d4d4d;
+    width: 100%;
+    position: relative;
+    z-index: 11111;
+    position: absolute;
+    display: none;
+    margin-top: 40px; }
+    .main-navigation-bar li {
+      width: 100%;
+      display: block;
+      padding: 10px; }
+      .main-navigation-bar li a {
+        font-size: 20px;
+        color: #fff; }
+
+  .hamburger-menu {
+    display: block;
+    background-image: url("../pictures/icons/hamburgerMenu.png");
+    background-size: 50px 40px;
+    width: 50px;
+    height: 40px;
+    float: left; }
+
+  .wrapper-lock-and-social-links {
+    padding: 0 !Important; }
+
+  .wrapper-for-main-h1 {
+    padding: 0 !Important; }
+
+  .main-h2-in-site {
+    font-size: 12px; }
+
+  .hamburger-menu1 {
+    display: block;
+    background-image: url("../pictures/icons/hamburgerMenu.png");
+    background-size: 50px 40px;
+    width: 50px;
+    height: 40px;
+    float: right; }
+
+  .wrapper-main-navigation-bar {
+    padding-right: 0 !Important; }
+
+  .link-social-icons {
+    max-width: 150px; } }
+@media only screen and (min-width: 769px) {
+  .main-navigation-bar {
+    display: block !Important; }
+
+  .big-links {
+    display: block !Important; } }
+.slider-wrapper {
+  max-height: 550px;
+  overflow: hidden; }
+  .slider-wrapper .item img {
+    width: 100%; }
+  .slider-wrapper .glyphicon-chevron-left, .slider-wrapper .glyphicon-chevron-right {
+    top: 250px; }
+  .slider-wrapper #myCarousel {
+    max-height: 550px !Important; }
+  .slider-wrapper .bottom-div-header {
+    background: rgba(105, 99, 95, 0.86);
+    height: 110px;
+    z-index: 11;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+
+.main-wrapper-logo {
+  width: 130px;
+  height: 130px;
+  background-color: #da3743;
+  position: absolute;
+  top: 38px;
+  z-index: 2; }
+  .main-wrapper-logo img {
+    display: block;
+    margin: auto;
+    margin-top: 9px; }
+  .main-wrapper-logo h6 {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 5px; }
+
+.wrapper-for-big-linkgs {
+  position: absolute;
+  top: 38px;
+  background-color: rgba(88, 50, 37, 0.6);
+  width: 100%;
+  height: 80px; }
+  .wrapper-for-big-linkgs .drowdownMenu-restorani-Main, .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste {
+    position: absolute;
+    margin-left: 130px;
+    background-color: rgba(218, 55, 67, 0.8);
+    padding: 23px 23px 0 23px;
+    width: 76%;
+    z-index: 2;
+    display: none; }
+    .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul, .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul {
+      float: left;
+      margin-left: 18px; }
+      .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul li, .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul li {
+        color: #fff;
+        font-size: 19px;
+        font-family: Myriad Pro;
+        margin: 4px 0; }
+      .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul li:first-child, .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul li:first-child {
+        margin-bottom: 14px; }
+      .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul a, .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul a {
+        color: #fff;
+        font-size: 14px;
+        font-family: Myriad Pro; }
+    .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul:first-child, .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul:first-child {
+      margin-left: 0; }
+  .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste {
+    margin-left: 500px;
+    width: 50%; }
+
+.big-links {
+  margin-left: 130px;
+  height: 80px;
+  position: relative; }
+  .big-links li {
+    float: left;
+    display: inline;
+    width: 135px;
+    padding-top: 25px;
+    height: 80px;
+    border-right: 1px solid #fff; }
+    .big-links li a {
+      display: block;
+      color: #fff;
+      width: 112px;
+      text-align: center;
+      margin: auto;
+      line-height: 18px;
+      font-size: 15px; }
+      .big-links li a:hover {
+        text-decoration: none; }
+  .big-links li:nth-child(1) a {
+    width: 115px; }
+    .big-links li:nth-child(1) a span:first-child {
+      float: left; }
+    .big-links li:nth-child(1) a span:nth-child(2) {
+      float: left;
+      margin: 10px 0 0 6px; }
+  .big-links li:nth-child(5) a {
+    width: 121px; }
+    .big-links li:nth-child(5) a span:first-child {
+      float: left;
+      width: 90px; }
+    .big-links li:nth-child(5) a span:nth-child(2) {
+      float: left;
+      width: 25px;
+      margin: 8px 0 0 3px; }
+  .big-links li:nth-child(8) a {
+    width: 105px; }
+  .big-links .wrapper-for-search {
+    position: absolute;
+    right: 0; }
+    .big-links .wrapper-for-search img:first-child {
+      position: absolute;
+      right: 0;
+      top: 15px; }
+    .big-links .wrapper-for-search img:nth-child(2) {
+      position: absolute;
+      right: 15px;
+      top: 25px; }
+    .big-links .wrapper-for-search .seach-box {
+      width: 420px;
+      height: 50px;
+      display: none; }
+      .big-links .wrapper-for-search .seach-box input {
+        width: 100%;
+        height: 50px;
+        padding-left: 20px;
+        position: absolute;
+        right: 70px;
+        top: 14px; }
+
+.wrapper-for-secondLogo {
+  position: absolute;
+  bottom: 0; }
+  .wrapper-for-secondLogo img:first-child {
+    position: absolute;
+    bottom: -8px;
+    width: 131px;
+    height: 133px; }
+  .wrapper-for-secondLogo img:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    right: -124px;
+    top: -70px; }
+
+.title-header-restoran {
+  color: #fff;
+  font-size: 37px;
+  text-align: left;
+  font-family: Myriad Pro;
+  margin-left: 150px;
+  font-weight: normal; }
+
+.description-restorant-bottom div:first-child {
+  float: left; }
+.description-restorant-bottom div:nth-child(2) {
+  float: left;
+  margin: 25px 0 0 20px; }
+  .description-restorant-bottom div:nth-child(2) span {
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 10px 23px;
+    color: #fff; }
+
+.description-restoran-bottom2 .description {
+  font-size: 23px;
+  color: #fff;
+  font-family: Myriad Pro;
+  margin-left: 150px; }
+
+#myCarousel .carousel-indicators {
+  position: absolute;
+  bottom: 35px;
+  z-index: 15;
+  width: 300px;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
+  left: 70%; }
+  #myCarousel .carousel-indicators li {
+    width: 21px;
+    height: 21px;
+    background-color: #fff;
+    margin-right: 8px; }
+  #myCarousel .carousel-indicators .active {
+    background-color: #da3743;
+    margin: 0;
+    border: 1px solid #da3743;
+    margin-right: 8px; }
+#myCarousel .arrowLeft {
+  background-image: url("../pictures/slider/arrowLeft.png");
+  width: 52px;
+  height: 52px;
+  background-size: 52px 52px;
+  top: 44%;
+  position: absolute;
+  margin-top: -26px;
+  right: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  transition-duration: .3s; }
+  #myCarousel .arrowLeft:hover {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: .5s;
+    -ms-transform: translate(20px, 0) scale(1.2, 1.2);
+    /* IE 9 */
+    -webkit-transform: translate(20px, 0) scale(1.2, 1.2);
+    /* Safari */
+    transform: translate(20px, 0) scale(1.2, 1.2);
+    /* Standard syntax */ }
+#myCarousel .arrowRight {
+  background-image: url("../pictures/slider/arrowRight.png");
+  width: 52px;
+  height: 52px;
+  background-size: 52px 52px;
+  top: 44%;
+  position: absolute;
+  margin-top: -26px;
+  left: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  transition-duration: .3s; }
+  #myCarousel .arrowRight:hover {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: .5s;
+    -ms-transform: translate(-20px, 0) scale(1.2, 1.2);
+    /* IE 9 */
+    -webkit-transform: translate(-20px, 0) scale(1.2, 1.2);
+    /* Safari */
+    transform: translate(-20px, 0) scale(1.2, 1.2);
+    /* Standard syntax */ }
+#myCarousel .left, #myCarousel .carousel-control {
+  background-image: none; }
+#myCarousel .right, #myCarousel .carousel-control {
+  background-image: none; }
+
+.description-restoran {
+  position: absolute;
+  right: 60px;
+  top: 150px; }
+  .description-restoran h6 {
+    max-width: 320px;
+    background-color: rgba(58, 185, 220, 0.9);
+    font-size: 14px;
+    padding: 10px 10px 20px 10px;
+    color: #fff; }
+  .description-restoran .more {
+    width: 105px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    background-color: rgba(89, 87, 89, 0.7);
+    position: absolute;
+    right: 10px;
+    bottom: -20px; }
+
+@media only screen and (max-width: 1361px) {
+  .wrapper-for-big-linkgs {
+    top: 78px; }
+    .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste {
+      margin-left: 300px; }
+    .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul li {
+      font-size: 15px; }
+    .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul a {
+      font-size: 12px; }
+    .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul li:first-child {
+      font-size: 15px; }
+    .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul a {
+      font-size: 12px; }
+
+  .main-wrapper-logo {
+    top: 78px; }
+
+  .big-links li {
+    width: 89px; }
+    .big-links li li:nth-child(8) {
+      width: 89px; }
+    .big-links li a {
+      width: 89px;
+      font-size: 12px; }
+  .big-links li:nth-child(1) a span:nth-child(2) {
+    margin: 25px 0 0 -45px; }
+  .big-links li:nth-child(1) a span:first-child {
+    margin-left: 10px; }
+  .big-links li:nth-child(5) a span:nth-child(2) {
+    margin: 36px 0 0 -60px; }
+
+  .big-links li:nth-child(8) a {
+    width: 89px !Important;
+    font-size: 12px; }
+
+  .description-restoran {
+    top: 200px; } }
+@media only screen and (max-width: 991px) {
+  .wrapper-for-secondLogo img:first-child {
+    bottom: -8px;
+    width: 90px;
+    height: 90px; }
+
+  .wrapper-for-secondLogo img:nth-child(2) {
+    width: 82px;
+    height: 28px;
+    left: 4px;
+    top: -53px;
+    right: -124px; }
+
+  .slider-wrapper .bottom-div-header {
+    height: 80px; }
+
+  .title-header-restoran {
+    margin-left: 110px;
+    font-size: 28px; }
+
+  .description-restorant-bottom div:nth-child(2) {
+    margin: 20px 0 0 15px; }
+    .description-restorant-bottom div:nth-child(2) span {
+      font-size: 12px;
+      border: 1px solid #fff;
+      padding: 6px 14px; }
+
+  .description-restoran-bottom2 .description {
+    margin-left: 110px;
+    font-size: 17px; }
+
+  #myCarousel .carousel-indicators {
+    left: 65%;
+    bottom: 22px; }
+    #myCarousel .carousel-indicators li {
+      width: 15px;
+      height: 15px; }
+
+  .description-restoran {
+    top: 185px;
+    right: 50px; }
+    .description-restoran h6 {
+      font-size: 13px;
+      padding: 7px 7px 14px 7px;
+      line-height: 17px; }
+
+  .big-links li {
+    width: 69px; }
+    .big-links li a {
+      width: 69px;
+      font-size: 10px;
+      line-height: 15px; }
+
+  .big-links li:nth-child(1) a span:first-child {
+    margin-left: 4px; }
+
+  .big-links li:nth-child(1) a span:nth-child(2) {
+    margin: 21px 0 0 -36px; }
+
+  .big-links li:nth-child(5) a span:first-child {
+    width: 69px; }
+    .big-links li:nth-child(5) a span:first-child img {
+      width: 14px;
+      height: 8px; }
+
+  .big-links li:nth-child(5) a span:nth-child(2) {
+    margin: 30px 0 0 -47px; }
+
+  .big-links li:nth-child(5) a img {
+    width: 14px;
+    height: 8px; }
+
+  .big-links li:nth-child(1) a img {
+    width: 14px;
+    height: 8px; }
+
+  .big-links li:nth-child(8) a {
+    font-size: 10px;
+    width: 69px !Important; }
+
+  .drowdownMenu-restorani-Main {
+    width: 95% !Important;
+    margin-left: 0 !Important; }
+
+  .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul li {
+    font-size: 14px;
+    line-height: 11px !Important; }
+
+  .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul a {
+    font-size: 11px;
+    line-height: 11px !Important; }
+
+  .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul li:first-child {
+    font-size: 14px; }
+
+  .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul a {
+    font-size: 11px;
+    line-height: 11px !Important; }
+
+  .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul li {
+    font-size: 14px; }
+
+  .wrapper-for-big-linkgs {
+    top: 75px !Important; }
+
+  .main-wrapper-logo {
+    top: 75px !Important; }
+
+  .wrapper-language {
+    padding-top: 13px;
+    font-size: 15px !Important; }
+
+  .wrapper-for-big-linkgs {
+    height: 70px; }
+
+  .big-links {
+    height: 70px; }
+    .big-links li {
+      padding-top: 20px; }
+
+  .big-links li {
+    height: 70px !Important; } }
+@media only screen and (max-width: 768px) {
+  .bottom-div-header {
+    display: none; }
+
+  .carousel-indicators {
+    display: none; }
+
+  .description-restoran {
+    display: none; }
+
+  .big-links {
+    width: 100%;
+    background-color: red;
+    margin-left: 0 !Important;
+    z-index: 1111;
+    display: none; }
+    .big-links li {
+      width: 100% !Important;
+      display: block !Important;
+      background-color: #c65353 !Important;
+      padding: 10px 0 !Important;
+      height: auto !Important;
+      border-bottom: 2px solid #fff; }
+      .big-links li a {
+        width: 100%;
+        font-size: 15px;
+        line-height: 18px; }
+    .big-links li:nth-child(1) a {
+      width: 95px !Important; }
+    .big-links li:nth-child(5) a {
+      width: 170px !Important; }
+    .big-links li:nth-child(1) a span:nth-child(2) {
+      margin: 20px 0 0 -52px; }
+    .big-links li:nth-child(5) a span:first-child {
+      width: 170px !Important; }
+    .big-links li:nth-child(5) a span:nth-child(2) {
+      margin: 20px 0 0 -102px; }
+    .big-links li:nth-child(8) a {
+      font-size: 15px !Important;
+      width: 100% !Important; }
+    .big-links .wrapper-for-search {
+      display: none; }
+
+  .wrapper-for-big-linkgs {
+    top: 79px !Important;
+    background-color: rgba(88, 50, 37, 0); }
+
+  .main-wrapper-logo {
+    display: none; }
+
+  .drowdownMenu-restorani-Main {
+    z-index: 111111 !Important; }
+
+  .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul {
+    float: none !Important;
+    margin: 0 !Important;
+    margin-top: 30px !Important; }
+    .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul li:first-child {
+      font-size: 18px; }
+    .wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul a {
+      font-size: 15px !Important;
+      line-height: 16px !Important; }
+
+  .drowdownMenu-restorani-Main {
+    width: 90% !Important;
+    padding-top: 0 !Important;
+    top: 58px !Important; }
+
+  .drowdown-menu-karticeZaPopuste {
+    margin-left: 0 !Important;
+    z-index: 111111 !Important;
+    width: 89% !Important;
+    top: 237px !Important;
+    padding-top: 0 !Important; }
+    .drowdown-menu-karticeZaPopuste ul {
+      float: none !Important;
+      margin: 0 !Important;
+      margin-top: 30px !Important; }
+      .drowdown-menu-karticeZaPopuste ul a {
+        font-size: 15px !Important;
+        line-height: 16px !Important; }
+
+  .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul li:first-child {
+    font-size: 18px !Important; }
+
+  .wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul a {
+    line-height: 16px !Important; }
+
+  .main-navigation-bar li a {
+    width: 100% !Important;
+    display: inline-block;
+    text-align: center; }
+
+  #myCarousel .arrowLeft {
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    margin-top: -10px !Important; }
+
+  #myCarousel .arrowRight {
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    margin-top: -10px !Important; } }
+.restorants {
+  padding-bottom: 20px;
+  background-color: #f3f2f1;
+  	/*h2.title {
+          font-size: 37px;
+          font-family: Myriad Pro;
+          color: $fontColor;
+          margin-top: 25px;
+      }*/ }
+  .restorants .wrapper-slider-restorani {
+    margin-top: 0; }
+    .restorants .wrapper-slider-restorani .nav, .restorants .wrapper-slider-restorani .nav-tabs {
+      width: 97.6%;
+      margin: auto; }
+    .restorants .wrapper-slider-restorani .tab-content {
+      margin-left: 9px; }
+    .restorants .wrapper-slider-restorani .owl-next {
+      right: -51px !Important; }
+    .restorants .wrapper-slider-restorani .owl-prev {
+      left: -60px !Important; }
+  .restorants .restoraniMain {
+    padding: 2%;
+    background-color: #fff; }
+    .restorants .restoraniMain .leftrestoraniMain {
+      width: 18%;
+      float: left; }
+      .restorants .restoraniMain .leftrestoraniMain h3 {
+        font-weight: normal; }
+    .restorants .restoraniMain .dropdownMenuRestorani {
+      width: 82%;
+      float: left; }
+      .restorants .restoraniMain .dropdownMenuRestorani .col-sm-4 {
+        padding: 0; }
+      .restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+        width: 100%;
+        padding: 15px;
+        background: transparent;
+        border-radius: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        background-image: url("../pictures/strelice/arrowDown.png");
+        background-repeat: no-repeat;
+        background-size: 21px 12px;
+        background-position: 140px 16px; }
+      .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper {
+        margin-top: 18px; }
+        .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .wrapper-input {
+          width: 76%;
+          float: left; }
+          .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .wrapper-input input {
+            width: 100%;
+            padding: 14px 13px 12px 60px;
+            background-image: url("../pictures/icons/loop2.png");
+            background-size: 22px 22px;
+            background-repeat: no-repeat;
+            background-position: 11px 11px; }
+            .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .wrapper-input input:focus {
+              outline: none; }
+        .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .pretraga {
+          width: 24%;
+          float: left; }
+      .restorants .restoraniMain .dropdownMenuRestorani .row {
+        margin-left: 0;
+        margin-right: 0; }
+    .restorants .restoraniMain .wrapper-slider-restorani {
+      background-color: red; }
+      .restorants .restoraniMain .wrapper-slider-restorani .nav-tabs > li {
+        width: 20%; }
+  .restorants .wrapper-slider-restorani {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px; }
+    .restorants .wrapper-slider-restorani .nav-tabs > li {
+      width: 20%;
+      border-bottom: 1px solid #ddd;
+      border: 1px solid #ebebeb;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      margin-bottom: 0; }
+      .restorants .wrapper-slider-restorani .nav-tabs > li a {
+        height: 48px;
+        border-radius: none;
+        margin-right: 0;
+        color: #333333; }
+        .restorants .wrapper-slider-restorani .nav-tabs > li a:hover {
+          background: none; }
+    .restorants .wrapper-slider-restorani .nav-tabs > li.active a {
+      border: none;
+      height: 48px;
+      border-bottom: 2px solid #da3743;
+      color: #da3743; }
+    .restorants .wrapper-slider-restorani .owl-pagination {
+      display: none !Important; }
+    .restorants .wrapper-slider-restorani #owl-demo .item, .restorants .wrapper-slider-restorani #owl-demo2 .item, .restorants .wrapper-slider-restorani #owl-demo3 .item, .restorants .wrapper-slider-restorani #owl-demo5 .item {
+      background: none; }
+    .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res, .restorants .wrapper-slider-restorani #owl-demo2 .item .wrapper-little-res, .restorants .wrapper-slider-restorani #owl-demo3 .item .wrapper-little-res, .restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res {
+      position: relative; }
+    .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .little-logo, .restorants .wrapper-slider-restorani #owl-demo2 .item .wrapper-little-res .little-logo, .restorants .wrapper-slider-restorani #owl-demo3 .item .wrapper-little-res .little-logo, .restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res .little-logo {
+      position: absolute;
+      bottom: -5px;
+      left: 10px; }
+    .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .discount-with-card, .restorants .wrapper-slider-restorani #owl-demo2 .item .wrapper-little-res .discount-with-card, .restorants .wrapper-slider-restorani #owl-demo3 .item .wrapper-little-res .discount-with-card, .restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res .discount-with-card {
+      background: #05add7;
+      width: 130px;
+      height: 30px;
+      font-size: 14px;
+      font-family: Myriad Pro;
+      position: absolute;
+      right: 12px;
+      bottom: 40px;
+      line-height: 30px; }
+    .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .reserve, .restorants .wrapper-slider-restorani #owl-demo2 .item .wrapper-little-res .reserve, .restorants .wrapper-slider-restorani #owl-demo3 .item .wrapper-little-res .reserve, .restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res .reserve {
+      background: #da3743;
+      width: 130px;
+      height: 30px;
+      font-size: 14px;
+      font-family: Myriad Pro;
+      position: absolute;
+      right: 12px;
+      bottom: 5px;
+      line-height: 30px;
+      letter-spacing: 1px; }
+    .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture, .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture, .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture, .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture {
+      color: #000;
+      text-align: left;
+      position: relative; }
+      .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h4, .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture h4, .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture h4, .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture h4 {
+        color: #da3743;
+        font-size: 19px;
+        margin-top: 17px;
+        font-family: Myriad Pro;
+        font-weight: 100; }
+      .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h5, .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture h5, .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture h5, .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture h5 {
+        color: #b7b7b7;
+        margin-top: 5px;
+        font-family: Myriad Pro;
+        font-size: 14px; }
+      .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h6, .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture h6, .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture h6, .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture h6 {
+        color: #333333;
+        margin-top: 5px;
+        font-family: Myriad Pro;
+        font-size: 14px; }
+      .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h6 span:nth-child(2), .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture h6 span:nth-child(2), .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture h6 span:nth-child(2), .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture h6 span:nth-child(2) {
+        color: #b7b7b7;
+        margin-left: 5px;
+        font-family: Myriad Pro;
+        font-size: 14px; }
+      .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture p, .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture p, .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture p, .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture p {
+        color: #333333;
+        margin-top: 5px;
+        font-family: Myriad Pro;
+        font-size: 14px; }
+      .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture p span:nth-child(2), .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture p span:nth-child(2), .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture p span:nth-child(2), .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture p span:nth-child(2) {
+        color: #b7b7b7;
+        margin-left: 5px;
+        font-family: Myriad Pro;
+        font-size: 14px; }
+      .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture .wrapper-mark, .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture .wrapper-mark, .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture .wrapper-mark, .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture .wrapper-mark {
+        position: absolute;
+        top: 0;
+        right: 10px; }
+      .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture .mark, .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture .mark, .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture .mark, .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture .mark {
+        width: 43px;
+        height: 25px;
+        background-color: green;
+        text-align: center;
+        line-height: 22px;
+        color: #fff; }
+      .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture .mark + p, .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture .mark + p, .restorants .wrapper-slider-restorani #owl-demo3 .item .text-under-picture .mark + p, .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture .mark + p {
+        color: #a8a8a8; }
+    .restorants .wrapper-slider-restorani #owl-demo .owl-buttons .owl-prev, .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-prev, .restorants .wrapper-slider-restorani #owl-demo3 .owl-buttons .owl-prev, .restorants .wrapper-slider-restorani #owl-demo5 .owl-buttons .owl-prev {
+      color: blue;
+      background: none;
+      color: transparent;
+      background-image: url("../pictures/slider/arowLeftPink.png");
+      background-size: 23px 43px;
+      width: 23px;
+      height: 43px;
+      opacity: 1;
+      position: absolute;
+      left: -55px;
+      top: 100px; }
+    .restorants .wrapper-slider-restorani #owl-demo .owl-buttons .owl-next, .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-next, .restorants .wrapper-slider-restorani #owl-demo3 .owl-buttons .owl-next, .restorants .wrapper-slider-restorani #owl-demo5 .owl-buttons .owl-next {
+      color: blue;
+      background: none;
+      color: transparent;
+      background-image: url("../pictures/slider/arowRightPink.png");
+      background-size: 23px 43px;
+      width: 23px;
+      height: 43px;
+      opacity: 1;
+      position: absolute;
+      right: -55px;
+      top: 100px; }
+  .restorants .title-all-rest {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    color: #000; }
+
+.restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+  padding: 13px;
+  border: 1px solid #ebebeb; }
+
+@media only screen and (max-width: 1361px) {
+  .restorants .restoraniMain .dropdownMenuRestorani .col-sm-2 select {
+    background-size: 14px 8px;
+    background-position: 95px 15px;
+    padding: 10px;
+    font-size: 13px; }
+
+  .leftrestoraniMain h3 {
+    font-size: 18px; }
+
+  .restorants .wrapper-slider-restorani .owl-prev {
+    left: -55px !Important; }
+
+  .restorants .wrapper-slider-restorani .owl-next {
+    right: -45px !Important; }
+
+  .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .wrapper-input input {
+    padding: 10px 13px 9px 60px;
+    background-size: 20px 20px;
+    background-position: 11px 8px; }
+
+  .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .pretraga {
+    height: 41px !Important; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li, .restorants .wrapper-slider-restorani .nav-tabs > li.active {
+    height: 41px;
+    line-height: 41px; }
+    .restorants .wrapper-slider-restorani .nav-tabs > li a, .restorants .wrapper-slider-restorani .nav-tabs > li.active a {
+      line-height: 41px;
+      height: 41px;
+      padding: 0px 15px; }
+
+  .restorants {
+    padding-bottom: 5px; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li .submit-buttons, .restorants .wrapper-slider-restorani .nav-tabs > li .restoraniMain .dropdownMenuRestorani .search-wrapper .pretraga, .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .wrapper-slider-restorani .nav-tabs > li .pretraga {
+    height: 41px;
+    line-height: 41px;
+    font-size: 15px; }
+
+  .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .pretraga {
+    font-size: 15px; }
+
+  .restorants .wrapper-slider-restorani .nav, .restorants .wrapper-slider-restorani .nav-tabs {
+    width: 97.8%;
+    margin: auto;
+    margin-left: 1.7%; }
+
+  .restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+    font-size: 13px;
+    background-position: 95px 18px;
+    background-size: 14px 8px; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li a {
+    padding: 0 5px; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li.active a {
+    padding: 0 5px; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .owl-buttons .owl-prev {
+    background-repeat: no-repeat;
+    left: -30px !Important; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .owl-buttons .owl-next {
+    background-repeat: no-repeat;
+    right: -25px !Important; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .discount-with-card {
+    width: 110px;
+    height: 26px;
+    font-size: 12px;
+    right: 1px;
+    bottom: 35px; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .reserve {
+    width: 110px;
+    height: 26px;
+    font-size: 12px;
+    right: 1px;
+    bottom: 4px; }
+
+  .restorants .wrapper-slider-restorani .tab-content {
+    margin-left: 3px; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h5 {
+    font-size: 12px;
+    font-weight: 100; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h6 {
+    font-size: 12px;
+    font-weight: 100; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture p {
+    font-size: 12px;
+    font-weight: 100; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture .mark {
+    font-size: 12px;
+    width: 35px;
+    height: 20px;
+    line-height: 20px; } }
+@media screen and (max-width: 991px) {
+  .restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+    background-position: 163px 18px; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li:first-child a {
+    padding: 0 !Important;
+    line-height: 41px;
+    height: 41px; } }
+@media only screen and (max-width: 767px) {
+  .restorants .restoraniMain .leftrestoraniMain {
+    float: none;
+    text-align: center;
+    width: 100%; }
+
+  .restorants .restoraniMain .dropdownMenuRestorani {
+    float: none;
+    text-align: center;
+    width: 100%; }
+    .restorants .restoraniMain .dropdownMenuRestorani .row {
+      max-width: 265px;
+      margin: auto; }
+    .restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+      background-position: 230px 18px; }
+
+  .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .wrapper-input input {
+    padding: 13px 13px 13px 10px;
+    background-image: none;
+    font-size: 11px; }
+
+  .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .pretraga {
+    font-size: 11px !Important; }
+
+  .restorants .restoraniMain .leftrestoraniMain h3 {
+    margin-bottom: 10px; }
+
+  #checkboxes, #checkboxes1 {
+    position: absolute;
+    z-index: 111111; }
+
+  .span-checkbox {
+    float: left; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li {
+    width: 100%; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture .wrapper-mark {
+    display: none; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .little-logo {
+    display: none; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .reserve {
+    bottom: -170px;
+    left: 0; }
+
+  .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .discount-with-card {
+    bottom: -135px;
+    left: 0; }
+
+  #owl-demo .item {
+    padding-bottom: 75px !Important; }
+
+  .restorants .title-all-rest {
+    font-size: 25px;
+    font-style: italic; } }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  .restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+    background-image: none; } }
+.maps-restorant {
+  background-color: #f3f2f1;
+  	/*.container h2.title {
+          font-size: 37px;
+          font-family: Myriad Pro;
+          color: $fontColor;
+  
+         
+      }*/ }
+  .maps-restorant .container {
+    position: relative; }
+  .maps-restorant .inner-wrapper-for-maps {
+    background: #fff;
+    padding: 2% 2% 0.2% 2%; }
+  .maps-restorant .list-in-map-restorants .number-restorants, .maps-restorant .list-in-map-restorants .tip-restorants, .maps-restorant .list-in-map-restorants .another-objects, .maps-restorant .list-in-map-restorants .naiv-adresa-restorana {
+    float: left;
+    width: 21%;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #ebebeb; }
+    .maps-restorant .list-in-map-restorants .number-restorants select, .maps-restorant .list-in-map-restorants .tip-restorants select, .maps-restorant .list-in-map-restorants .another-objects select, .maps-restorant .list-in-map-restorants .naiv-adresa-restorana select {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border: 1px solid #ebebeb;
+      padding-left: 20px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("../pictures/strelice/arrowDown.png");
+      background-repeat: no-repeat;
+      background-size: 21px 12px;
+      background-position: 215px 16px; }
+      .maps-restorant .list-in-map-restorants .number-restorants select:focus, .maps-restorant .list-in-map-restorants .tip-restorants select:focus, .maps-restorant .list-in-map-restorants .another-objects select:focus, .maps-restorant .list-in-map-restorants .naiv-adresa-restorana select:focus {
+        border-bottom: 2px solid #ebebeb;
+        outline: none; }
+  .maps-restorant .list-in-map-restorants .number-restorants {
+    padding-left: 20px; }
+  .maps-restorant .list-in-map-restorants .naiv-adresa-restorana {
+    padding-left: 40px; }
+  .maps-restorant .list-in-map-restorants .tip-restorants, .maps-restorant .list-in-map-restorants .another-objects {
+    border: none; }
+  .maps-restorant .list-in-map-restorants .search {
+    float: left;
+    width: 16%;
+    background-color: #da3743;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    outline: none;
+    border: none; }
+  .maps-restorant .legend-in-map {
+    background-color: #fff;
+    width: 260px;
+    height: 350px;
+    position: absolute;
+    bottom: 70px;
+    right: 40px; }
+    .maps-restorant .legend-in-map h4 {
+      margin: 15px 0 0 40px; }
+    .maps-restorant .legend-in-map .wrapper-for-checkbox {
+      border-bottom: 1px solid #ebebeb;
+      width: 90%;
+      margin: auto;
+      padding-bottom: 5px;
+      font-size: 13px; }
+      .maps-restorant .legend-in-map .wrapper-for-checkbox input {
+        width: 17px;
+        height: 17px;
+        margin-right: 5px;
+        vertical-align: -2px; }
+      .maps-restorant .legend-in-map .wrapper-for-checkbox img {
+        float: right;
+        margin-right: 3px;
+        margin-top: 4px; }
+  .maps-restorant .white-bottom {
+    height: 50px;
+    background-color: #fff; }
+
+@media only screen and (max-width: 1361px) {
+  .maps-restorant .list-in-map-restorants .number-restorants {
+    height: 41px;
+    line-height: 41px;
+    font-size: 14px; }
+
+  .maps-restorant .list-in-map-restorants .tip-restorants {
+    height: 41px;
+    line-height: 41px;
+    background-position: 155px 17px;
+    font-size: 14px; }
+
+  .maps-restorant .list-in-map-restorants .another-objects {
+    height: 41px;
+    line-height: 41px;
+    background-position: 155px 17px;
+    font-size: 14px; }
+
+  .maps-restorant .list-in-map-restorants .naiv-adresa-restorana {
+    height: 41px;
+    line-height: 41px;
+    padding-left: 20px;
+    font-size: 13px; }
+
+  .maps-restorant .list-in-map-restorants .search {
+    height: 41px;
+    line-height: 41px;
+    font-size: 15px; }
+
+  #map {
+    height: 380px !Important; }
+
+  .maps-restorant .white-bottom {
+    height: 35px; }
+
+  .maps-restorant .legend-in-map {
+    bottom: 52px; } }
+@media only screen and (max-width: 991px) {
+  .maps-restorant .list-in-map-restorants .tip-restorants select, .maps-restorant .list-in-map-restorants .another-objects select {
+    background-position: 121px 17px !Important; }
+
+  .naiv-adresa-restorana {
+    line-height: 15px !Important;
+    padding-top: 5px !Important; } }
+@media only screen and (max-width: 767px) {
+  .maps-restorant .legend-in-map {
+    display: none; }
+
+  .maps-restorant .list-in-map-restorants .number-restorants, .maps-restorant .list-in-map-restorants .tip-restorants, .maps-restorant .list-in-map-restorants .another-objects {
+    width: 100%; }
+
+  .maps-restorant .list-in-map-restorants .naiv-adresa-restorana {
+    width: 100%;
+    padding-top: 13px !Important; }
+
+  .maps-restorant .list-in-map-restorants .search {
+    width: 100%; }
+
+  .list-in-map-restorants {
+    max-width: 265px !Important;
+    margin: auto; }
+
+  .maps-restorant .list-in-map-restorants .tip-restorants select {
+    background-position: 235px 17px !Important; }
+
+  .maps-restorant .list-in-map-restorants .another-objects select {
+    background-position: 235px 17px !Important; } }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .maps-restorant .list-in-map-restorants .tip-restorants select {
+    background-image: none; }
+
+  .maps-restorant .list-in-map-restorants .another-objects select {
+    background-image: none; } }
+.rezervacije-restorana {
+  background-color: #f3f2f1;
+  	/*.container h2.title {
+          font-size: 37px;
+          font-family: Myriad Pro;
+          color: $fontColor;
+          margin-top: 25px;
+         
+      }*/ }
+  .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR {
+    float: left;
+    width: 14%; }
+  .rezervacije-restorana .dropdown-menu-restorani .search {
+    float: left;
+    width: 16%;
+    background-color: #da3743;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-family: Myriad Pro;
+    letter-spacing: 1px; }
+  .rezervacije-restorana .dropdown-menu-restorani select {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    border: none;
+    border: 1px solid #ebebeb;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../pictures/strelice/arrowDown.png");
+    background-repeat: no-repeat;
+    background-size: 21px 12px;
+    background-position: 136px 18px;
+    padding-left: 18px; }
+    .rezervacije-restorana .dropdown-menu-restorani select:focus {
+      outline: none; }
+  .rezervacije-restorana .inner-wrapper-rezervacije-restorana {
+    padding: 2% 2% 1.3% 2%;
+    background: #fff; }
+    .rezervacije-restorana .inner-wrapper-rezervacije-restorana h3 {
+      font-size: 23px;
+      font-family: Myriad Pro;
+      font-weight: normal;
+      margin-bottom: 24px;
+      margin-top: 6px; }
+
+@media only screen and (max-width: 1361px) {
+  .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR select {
+    padding-left: 15px;
+    height: 41px;
+    line-height: 41px;
+    font-size: 13px;
+    background-size: 14px 8px;
+    background-position: 96px 18px; }
+
+  .rezervacije-restorana .dropdown-menu-restorani .search {
+    height: 41px;
+    line-height: 41px; } }
+@media only screen and (max-width: 991px) {
+  .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR {
+    width: 28%; }
+    .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR select {
+      background-position: 165px 18px; }
+
+  .rezervacije-restorana .dropdown-menu-restorani .search {
+    height: 82px;
+    line-height: 82px;
+    margin-top: -41px; } }
+@media only screen and (max-width: 767px) {
+  .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR {
+    width: 100%;
+    max-width: 265px;
+    margin: auto; }
+
+  .rezervacije-restorana .dropdown-menu-restorani .search {
+    height: 41px;
+    line-height: 41px;
+    max-width: 265px;
+    width: 100%;
+    margin: auto; }
+
+  .dropdown-menu-restorani {
+    max-width: 265px;
+    margin: auto; }
+
+  .rezervacije-restorana .inner-wrapper-rezervacije-restorana h3 {
+    text-align: center; }
+
+  .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR select {
+    background-position: 235px 18px; } }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  .rezervacije-restorana .dropdown-menu-restorani select {
+    background-image: none; } }
+.dostava-hrane {
+  background-color: #f3f2f1;
+  	/*.container h2.title {
+          font-size: 37px;
+          font-family: Myriad Pro;
+          color: $fontColor;
+          margin-top: 25px;
+         
+      }*/ }
+  .dostava-hrane .wrapper-slider-restorani {
+    margin-top: 0; }
+    .dostava-hrane .wrapper-slider-restorani .nav, .dostava-hrane .wrapper-slider-restorani .nav-tabs {
+      width: 97.6%;
+      margin: auto; }
+    .dostava-hrane .wrapper-slider-restorani .tab-content {
+      margin-left: 9px; }
+    .dostava-hrane .wrapper-slider-restorani .owl-next {
+      right: -51px !Important; }
+    .dostava-hrane .wrapper-slider-restorani .owl-prev {
+      left: -60px !Important; }
+    .dostava-hrane .wrapper-slider-restorani .reserve {
+      display: none; }
+    .dostava-hrane .wrapper-slider-restorani .discount-with-card {
+      bottom: 34px !Important;
+      background-color: #cccc00 !Important; }
+  .dostava-hrane .inner-wrapper-dostava-hrane {
+    width: 100%;
+    height: 250px;
+    background-image: url("../pictures/backgroundPictures/Untitled-1.jpg");
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    padding-top: 60px; }
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 15px 20px 25px 20px;
+    width: 60%;
+    margin: auto;
+    font-size: 23px;
+    font-family: Myriad Pro; }
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane h4 {
+      text-align: center;
+      font-weight: normal;
+      margin-bottom: 18px;
+      color: #4d4d4d; }
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane {
+      float: left;
+      width: 24%; }
+      .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane select {
+        width: 100%;
+        height: 48px;
+        line-height: 48px;
+        font-size: 14px;
+        font-family: Myriad Pro;
+        padding-left: 20px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url("../pictures/strelice/arrowDown.png");
+        background-repeat: no-repeat;
+        background-size: 21px 12px;
+        background-position: 136px 18px; }
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .submit-button {
+      float: left;
+      width: 28%;
+      font-size: 16px;
+      font-family: Myriad Pro;
+      letter-spacing: 1px; }
+      .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .submit-button input {
+        width: 100%;
+        height: 48px;
+        line-height: 48px; }
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .search {
+      float: left;
+      width: 16%;
+      background-color: #da3743;
+      text-align: center;
+      line-height: 48px;
+      color: #fff;
+      outline: none;
+      border: none;
+      letter-spacing: 1px; }
+
+@media only screen and (max-width: 1361px) {
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane select {
+    height: 41px;
+    line-height: 41px;
+    font-size: 13px;
+    background-size: 14px 8px;
+    background-position: 96px 18px; }
+
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .submit-button input {
+    height: 41px;
+    line-height: 41px;
+    font-size: 15px; }
+
+  .dostava-hrane .wrapper-slider-restorani .nav, .dostava-hrane .wrapper-slider-restorani .nav-tabs {
+    width: 97.8%;
+    margin: auto;
+    margin-left: 1.7%; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-prev {
+    left: -55px !Important; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-next {
+    right: -45px !Important; }
+
+  .dostava-hrane .nav-tabs > li:nth-child(3) a {
+    padding: 13px 0 !Important; }
+
+  .dostava-hrane .wrapper-slider-restorani .nav-tabs > li a {
+    padding: 0 15px !Important; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .item .wrapper-little-res .discount-with-card {
+    width: 110px;
+    height: 26px;
+    font-size: 12px;
+    right: 1px;
+    bottom: 35px; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture h5 {
+    font-size: 12px;
+    font-weight: 100; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture h6 {
+    font-size: 12px;
+    font-weight: 100; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture p {
+    font-size: 12px;
+    font-weight: 100; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture .mark {
+    font-size: 12px;
+    width: 35px;
+    height: 20px;
+    line-height: 20px; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-prev {
+    background-repeat: no-repeat;
+    left: -35px !Important; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-next {
+    right: -25px !Important; } }
+@media only screen and (max-width: 991px) {
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane select {
+    background-position: 74px 17px;
+    padding-left: 10px; } }
+@media only screen and (max-width: 767px) {
+  .wrapper-for-drop-menu-dostavaHrane {
+    width: 80% !Important;
+    margin: auto; }
+
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane {
+    padding: 15px 0px 0px 0px;
+    max-width: 220px !Important; }
+
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane h4 {
+    font-size: 16px; }
+
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane {
+    width: 100%; }
+
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .submit-button {
+    width: 100%; }
+
+  .dostava-hrane .inner-wrapper-dostava-hrane {
+    padding-top: 20px; }
+
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane select {
+    background-position: 192px 17px; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture .wrapper-mark {
+    display: none; }
+
+  #owl-demo2 .item {
+    padding-bottom: 36px !Important; }
+
+  .dostava-hrane .wrapper-slider-restorani .discount-with-card {
+    bottom: -130px !Important;
+    left: 0; }
+
+  .restorants .wrapper-slider-restorani #owl-demo2 .item .wrapper-little-res .little-logo {
+    display: none; }
+
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane {
+    background-color: #fff; }
+
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane h4 {
+    margin-bottom: 11px; } }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane select {
+    background-image: none; } }
+.akcije-i-popusti {
+  padding-bottom: 0;
+  background-color: #f3f2f1;
+  	/*.container h2.title {
+          font-size: 37px;
+          font-family: Myriad Pro;
+          color: $fontColor;
+          margin-top: 25px;
+         
+      }*/ }
+  .akcije-i-popusti .nav > li > a {
+    padding: 0; }
+    .akcije-i-popusti .nav > li > a select {
+      width: 100%;
+      height: 48px;
+      line-height: 48px;
+      padding-left: 12px;
+      outline: none;
+      border: none; }
+  .akcije-i-popusti .nav-tabs {
+    border-bottom: 3px solid #ddd; }
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti {
+    width: 97.4%;
+    margin-left: 14px; }
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti {
+      float: left;
+      width: 21%; }
+      .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select {
+        width: 100%;
+        height: 48px;
+        line-height: 48px;
+        padding-left: 12px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url("../pictures/strelice/arrowDown.png");
+        background-repeat: no-repeat;
+        background-size: 21px 12px;
+        background-position: 216px 18px;
+        border: none;
+        border: 1px solid #ebebeb; }
+        .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select:focus {
+          outline: none;
+          border: none;
+          border-right: 1px solid #ebebeb;
+          border-left: 1px solid #ebebeb;
+          border-top: 1px solid #ebebeb;
+          border-bottom: 2px solid #da3743;
+          color: #da3743; }
+          .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select:focus option {
+            color: #333333; }
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search {
+      width: 16%;
+      float: left !Important;
+      border: none !Important; }
+      .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.submit-buttons, .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper input.pretraga, .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.pretraga {
+        width: 100%;
+        height: 48px;
+        line-height: 48px;
+        border: none !Important; }
+  .akcije-i-popusti .discount-with-card {
+    display: none !Important; }
+  .akcije-i-popusti .text-under-picture h4 {
+    color: #da3743;
+    font-weight: 100;
+    font-size: 20px; }
+  .akcije-i-popusti .text-under-picture h5 {
+    font-weight: 100;
+    letter-spacing: 1px; }
+  .akcije-i-popusti .text-under-picture .wrapper-mark {
+    display: none; }
+  .akcije-i-popusti .text-under-picture .wrapper-for-place-and-price-akcije-popusti {
+    color: #333333;
+    margin-top: 40px; }
+    .akcije-i-popusti .text-under-picture .wrapper-for-place-and-price-akcije-popusti img {
+      float: left; }
+    .akcije-i-popusti .text-under-picture .wrapper-for-place-and-price-akcije-popusti .place {
+      margin-left: 10px;
+      font-size: 14px;
+      font-family: Myriad Pro;
+      letter-spacing: 1px; }
+    .akcije-i-popusti .text-under-picture .wrapper-for-place-and-price-akcije-popusti .price {
+      float: right;
+      margin-right: 15px; }
+  .akcije-i-popusti .wrapper-slider-restorani {
+    padding-bottom: 10px; }
+
+.item {
+  padding-bottom: 0 !Important; }
+
+@media only screen and (max-width: 1361px) {
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select {
+    height: 41px;
+    line-height: 41px;
+    font-size: 13px;
+    background-size: 14px 8px;
+    background-position: 152px 18px; }
+
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.submit-buttons, .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper input.pretraga, .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.pretraga {
+    height: 41px;
+    line-height: 41px;
+    font-size: 15px; }
+
+  .restorants .wrapper-slider-restorani #owl-demo3 .owl-buttons .owl-prev {
+    left: -35px !Important; }
+
+  .restorants .wrapper-slider-restorani #owl-demo3 .owl-buttons .owl-next {
+    right: -25px !Important; }
+
+  .akcije-i-popusti .text-under-picture .wrapper-for-place-and-price-akcije-popusti {
+    margin-top: 30px; } }
+@media only screen and (max-width: 991px) {
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti {
+    width: 42%; }
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select {
+      background-position: 250px 18px; }
+
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.submit-buttons, .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper input.pretraga, .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.pretraga {
+    height: 82px;
+    line-height: 82px; }
+
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search {
+    margin-top: -41px; } }
+@media only screen and (max-width: 767px) {
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti {
+    width: 100%;
+    max-width: 265px;
+    display: block; }
+
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search {
+    width: 100%;
+    margin-top: 0 !Important; }
+
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.submit-buttons, .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper input.pretraga, .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.pretraga {
+    height: 41px;
+    line-height: 41px; }
+
+  .restorants .wrapper-slider-restorani #owl-demo3 .item .wrapper-little-res .little-logo {
+    display: none; }
+
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti {
+    max-width: 265px !Important;
+    margin: auto; }
+
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select {
+    background-position: 237px 18px; } }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select {
+    background-image: none; } }
+.kartice-za-popuste {
+  background-color: #f3f2f1; }
+  .kartice-za-popuste .main-wrapper-kartice {
+    background-color: #fff;
+    padding: 2% 2% 1% 2%; }
+  .kartice-za-popuste .kartice > p {
+    margin: 20px 0;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 15px; }
+  .kartice-za-popuste .kartice > p:first-child {
+    color: #339900;
+    font-size: 23px;
+    font-family: Myriad Pro; }
+    .kartice-za-popuste .kartice > p:first-child span {
+      float: right;
+      width: 19px;
+      height: 19px;
+      background: #339900;
+      border-radius: 50%; }
+  .kartice-za-popuste .kartice > p:nth-child(2), .kartice-za-popuste .kartice > p:nth-child(3), .kartice-za-popuste .kartice > p:nth-child(4), .kartice-za-popuste .kartice > p:nth-child(5) {
+    font-size: 18px;
+    font-family: Myriad Pro;
+    color: #999999; }
+    .kartice-za-popuste .kartice > p:nth-child(2) .ok-picture, .kartice-za-popuste .kartice > p:nth-child(3) .ok-picture, .kartice-za-popuste .kartice > p:nth-child(4) .ok-picture, .kartice-za-popuste .kartice > p:nth-child(5) .ok-picture {
+      float: left;
+      margin-right: 18px; }
+    .kartice-za-popuste .kartice > p:nth-child(2) .question-mark, .kartice-za-popuste .kartice > p:nth-child(3) .question-mark, .kartice-za-popuste .kartice > p:nth-child(4) .question-mark, .kartice-za-popuste .kartice > p:nth-child(5) .question-mark {
+      float: right; }
+  .kartice-za-popuste h6 {
+    text-align: right;
+    color: #cc3333;
+    font-size: 23px;
+    margin-top: 25px; }
+  .kartice-za-popuste .grey-picture {
+    background-color: #ebebeb;
+    height: 180px;
+    width: 100%;
+    margin-top: 25px; }
+  .kartice-za-popuste h5 {
+    color: #cc3333;
+    font-size: 14px;
+    font-family: Myriad Pro;
+    font-weight: 100;
+    margin-top: 25px;
+    font-weight: 100; }
+  .kartice-za-popuste .silver-kartica > p:first-child {
+    color: #cccccc; }
+    .kartice-za-popuste .silver-kartica > p:first-child span {
+      background: #cccccc; }
+  .kartice-za-popuste .gold-kartica > p:first-child {
+    color: #cccc00; }
+    .kartice-za-popuste .gold-kartica > p:first-child span {
+      background: #cccc00; }
+
+@media only screen and (max-width: 1361px) {
+  .kartice-za-popuste .kartice > p {
+    font-size: 13px !Important;
+    position: relative; }
+
+  .kartice-za-popuste .kartice > p .ok-picture {
+    margin-right: 7px !Important;
+    background-size: 14px 10px;
+    width: 14px;
+    height: 10px; }
+
+  .kartice-za-popuste .kartice > p:nth-child(2) .question-mark {
+    position: absolute;
+    right: 0;
+    top: -4px; }
+
+  .kartice-za-popuste h6 {
+    font-size: 18px;
+    margin-top: 16px; }
+
+  .kartice-za-popuste .grey-picture {
+    margin-top: 18px; }
+
+  .kartice-za-popuste .kartice > p:first-child {
+    font-size: 20px !Important; } }
+@media only screen and (max-width: 991px) {
+  .gold-kartica, .premium-kartica {
+    margin-top: 20px; }
+
+  .kartice-za-popuste h5 {
+    margin-top: 15px; } }
+@media only screen and (max-width: 767px) {
+  .kartice-za-popuste .main-wrapper-kartice {
+    max-width: 400px !Important;
+    margin: auto; }
+
+  .kartice-za-popuste h5 {
+    margin-top: 10px !Important; } }
+.title {
+  font-size: 37px;
+  font-family: Myriad Pro;
+  color: #4d4d4d;
+  margin-top: 25px; }
+
+.nav-tabs li {
+  font-size: 15px;
+  font-family: #Myriad Pro; }
+
+.nav-tabs li a {
+  line-height: 28px; }
+
+.restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h4 {
+  font-weight: 100 !Important; }
+
+.subTitle-section, .restorants .restoraniMain .leftrestoraniMain {
+  font-size: 21px;
+  font-family: Myriad Pro;
+  color: #4d4d4d;
+  font-weight: normal;
+  margin-top: 12px;
+  letter-spacing: 1px; }
+
+.submit-buttons, .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .pretraga {
+  font-size: 16px;
+  font-family: Myriad Pro;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background-color: #da3743;
+  color: #fff;
+  letter-spacing: 1px; }
+
+.comment-like-share-section, .komentari .komentari-i-ocene-wrapper section.like-share-section .like .like-icon, .komentari .komentari-i-ocene-wrapper section.like-share-section .like .number-of-votes, .komentari .komentari-i-ocene-wrapper section.like-share-section .share .share-icon, .komentari .komentari-i-ocene-wrapper section.like-share-section .share .number-of-votes, .komentari .komentari-i-ocene-wrapper section.like-share-section .comment .subscribe-icon, .komentari .komentari-i-ocene-wrapper section.like-share-section .comment .input-for-comment, .komentari .komentari-i-ocene-wrapper section.like-share-section .comment .number-of-votes {
+  float: left;
+  padding: 10px 0;
+  border: 1px solid #e0e0e0; }
+
+.rotate {
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(180deg); }
+
+.multiselect, .multiselect1 {
+  width: 100%;
+  -webkit-appearance: none;
+  color: #4d4d4d;
+  /* background-image: url("../pictures/strelice/arrowDown.png");
+   background-repeat: no-repeat;
+   background-size: 21px 12px;
+   background-position: 140px 16px;*/ }
+
+.selectBox, .selectBox1 {
+  position: relative; }
+
+.selectBox select, .selectBox1 select {
+  width: 100%;
+  font-weight: 100; }
+
+.overSelect, .overSelect1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+#checkboxes, #checkboxes1 {
+  display: none;
+  border: 1px #dadada solid;
+  width: 100% !Important;
+  position: absolute;
+  background-color: #fff;
+  padding: 5px; }
+
+#checkboxes label, #checkboxes1 label {
+  display: block; }
+  #checkboxes label input, #checkboxes1 label input {
+    margin-right: 5px; }
+
+#checkboxes label:hover, #checkboxes1 label:hover {
+  background-color: #f3f2f1; }
+
+#owl-demo .item {
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center; }
+
+#owl-demo2 .item {
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center; }
+
+#owl-demo3 .item {
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center; }
+
+#owl-demo5 .item {
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center; }
+
+@media only screen and (max-width: 1361px) {
+  #checkboxes label, #checkboxes1 label {
+    display: block;
+    font-size: 12px;
+    margin: 10px 0; }
+    #checkboxes label input, #checkboxes1 label input {
+      float: left;
+      font-size: 12px;
+      margin-top: 0; }
+
+  .title {
+    font-size: 34px;
+    margin-top: 20px; }
+
+  .maps-restorant .list-in-map-restorants .another-objects select {
+    background-size: 14px 8px;
+    background-position: 155px 20px; }
+
+  .maps-restorant .list-in-map-restorants .tip-restorants select {
+    background-size: 14px 8px;
+    background-position: 155px 20px; }
+
+  #owl-demo .item, #owl-demo2 .item, #owl-demo3 .item, #owl-demo5 .item {
+    padding: 25px 0; } }
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 25px !Important; } }
+.vencanja-i-rodjendani {
+  background-color: #f3f2f1; }
+  .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja {
+    width: 80%;
+    padding: 15px 50px 25px 50px; }
+    .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja .dropdown-menu-vencanja {
+      width: 20%; }
+    .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja .submit-button {
+      width: 20%; }
+    .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja select {
+      background-position: 150px 18px !Important; }
+  .vencanja-i-rodjendani .inner-wrapper-dostava-hrane {
+    width: 100%;
+    height: 250px;
+    background-image: url("../pictures/backgroundPictures/Untitled-2.jpg");
+    background-size: 100% 857px;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    background-position: 0 -470px; }
+
+.restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res .discount-with-card {
+  background-color: #05add7 !Important; }
+
+@media only screen and (max-width: 1361px) {
+  .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja select {
+    background-position: 100px 18px !Important;
+    font-size: 13px; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li a {
+    font-size: 13px; }
+
+  .vencanja-i-rodjendani .nav-tabs > li:nth-child(3) a {
+    line-height: 15px;
+    padding-top: 5px !Important; }
+
+  .restorants .wrapper-slider-restorani #owl-demo5 .owl-buttons .owl-prev {
+    left: -35px !Important; }
+
+  .restorants .wrapper-slider-restorani #owl-demo5 .owl-buttons .owl-next {
+    right: -25px !Important; }
+
+  .restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res .discount-with-card {
+    right: 1px;
+    width: 110px;
+    height: 26px;
+    font-size: 12px; }
+
+  .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture h5 {
+    font-size: 12px;
+    font-weight: 100; }
+
+  .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture h6 {
+    font-size: 12px;
+    font-weight: 100; }
+
+  .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture p {
+    font-size: 12px;
+    font-weight: 100; }
+
+  .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture .mark {
+    font-size: 12px;
+    width: 35px;
+    height: 20px;
+    line-height: 20px; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li:nth-child(3).active a {
+    line-height: 15px;
+    padding-top: 5px !Important; }
+
+  .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja select {
+    background-position: 100px 18px !Important; } }
+@media only screen and (max-width: 991px) {
+  .restorants .wrapper-slider-restorani .nav-tabs > li:first-child a {
+    line-height: 41px;
+    padding-top: 0px !Important; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li:nth-child(4) a {
+    line-height: 41px;
+    padding-top: 0px !Important; }
+
+  .restorants .wrapper-slider-restorani .nav-tabs > li:nth-child(3).active a {
+    padding: 0 !Important;
+    line-height: 41px;
+    height: 41px; }
+
+  .vencanja-i-rodjendani .wrapper-slider-restorani .nav-tabs > li:nth-child(4) a {
+    line-height: 15px;
+    padding-top: 5px !Important; }
+
+  .vencanja-i-rodjendani .wrapper-slider-restorani .nav-tabs > li:nth-child(3).active a {
+    line-height: 15px;
+    padding: 5px 15px 0 15px !Important; }
+
+  .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja select {
+    background-position: 75px 18px !Important; } }
+@media only screen and (max-width: 767px) {
+  .restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture .wrapper-mark {
+    display: none; }
+
+  .restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res .little-logo {
+    display: none; }
+
+  .vencanja-i-rodjendani .nav-tabs > li:nth-child(3) a, .vencanja-i-rodjendani .wrapper-slider-restorani .nav-tabs > li:nth-child(4) a {
+    padding-top: 11px !Important; }
+
+  .vencanja-i-rodjendani .wrapper-slider-restorani .nav-tabs > li:nth-child(4) a.active {
+    padding-top: 11px !Important; }
+
+  .vencanja-i-rodjendani .wrapper-for-drop-menu-dostavaHrane h4 {
+    margin-bottom: 11px;
+    display: block;
+    padding-top: 14px; }
+
+  .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja .dropdown-menu-vencanja {
+    width: 100%; }
+
+  .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja {
+    padding: 0px 0 0px 0;
+    max-width: 220px;
+    margin: auto; }
+
+  .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja .submit-button {
+    width: 100%; }
+
+  .vencanja-i-rodjendani .inner-wrapper-dostava-hrane {
+    width: 100%;
+    padding-top: 20px;
+    height: 285px;
+    background-position: 0;
+    background-size: cover; }
+
+  .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja select {
+    background-position: 190px 18px !Important; } }
+.komentari {
+  background-color: #f3f2f1; }
+  .komentari .komentari-i-ocene-wrapper {
+    float: left;
+    width: 73%;
+    background-color: #fff;
+    padding: 2%;
+    padding-bottom: 70px; }
+    .komentari .komentari-i-ocene-wrapper .komentari-media-object {
+      border-bottom: 5px solid #ebebeb;
+      padding-bottom: 45px;
+      margin-top: 40px; }
+    .komentari .komentari-i-ocene-wrapper .komentari-media-object:first-child {
+      margin-top: 0; }
+    .komentari .komentari-i-ocene-wrapper header {
+      border-bottom: 2px solid #ebebeb; }
+    .komentari .komentari-i-ocene-wrapper .komentari-i-ocene {
+      width: 53%;
+      float: left;
+      font-size: 21px;
+      font-family: Myriad Pro;
+      color: #4d4d4d; }
+    .komentari .komentari-i-ocene-wrapper .ocene-komentari {
+      width: 47%;
+      float: left; }
+      .komentari .komentari-i-ocene-wrapper .ocene-komentari .ocene-little {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        font-size: 18px;
+        font-family: Myriad Pro; }
+      .komentari .komentari-i-ocene-wrapper .ocene-komentari .ocene-little:first-child {
+        color: #da3743; }
+      .komentari .komentari-i-ocene-wrapper .ocene-komentari .ocene-little:nth-child(2) {
+        color: #999999; }
+      .komentari .komentari-i-ocene-wrapper .ocene-komentari .ocene-little:nth-child(3) {
+        color: #999999;
+        margin-top: -14px; }
+        .komentari .komentari-i-ocene-wrapper .ocene-komentari .ocene-little:nth-child(3) div:first-child {
+          border: 2px solid #efefef;
+          width: 78%;
+          float: left;
+          height: 47px;
+          line-height: 47px;
+          border-bottom: 0; }
+        .komentari .komentari-i-ocene-wrapper .ocene-komentari .ocene-little:nth-child(3) div:nth-child(2) {
+          width: 22%;
+          border: 2px solid #efefef;
+          background-image: url("../pictures/icons/arrowDownLittle2.png");
+          background-position: 5px 18px;
+          height: 47px;
+          background-repeat: no-repeat;
+          float: left;
+          border-bottom: 0;
+          border-left: 0; }
+    .komentari .komentari-i-ocene-wrapper section.description-person-section {
+      border: 2px solid #ebebeb;
+      border-top: 0; }
+      .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person {
+        float: left;
+        width: 35%; }
+        .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person .place-for-picture {
+          background-color: #da3743;
+          float: left;
+          width: 35%;
+          height: 90px; }
+        .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person .person-information {
+          float: left;
+          width: 65%;
+          padding-left: 20px; }
+          .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person .person-information h5 {
+            color: #333333;
+            font-size: 18px;
+            margin-top: 12px;
+            font-family: Myriad Pro; }
+          .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person .person-information h6 {
+            color: #999999;
+            font-size: 14px;
+            font-family: Myriad Pro;
+            margin: 12px 0; }
+          .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person .person-information p {
+            font-family: Myriad Pro;
+            font-size: 14px;
+            color: #da3743; }
+      .komentari .komentari-i-ocene-wrapper section.description-person-section .icons-marks {
+        float: left;
+        width: 65%; }
+        .komentari .komentari-i-ocene-wrapper section.description-person-section .icons-marks .icon-wrapper {
+          float: left;
+          width: 25%;
+          text-align: center;
+          padding-top: 24px; }
+          .komentari .komentari-i-ocene-wrapper section.description-person-section .icons-marks .icon-wrapper p {
+            margin-top: 16px;
+            font-size: 14px;
+            font-family: Myriad Pro;
+            color: #999999; }
+          .komentari .komentari-i-ocene-wrapper section.description-person-section .icons-marks .icon-wrapper .last-p-icon-wrapper {
+            margin-top: 7px; }
+    .komentari .komentari-i-ocene-wrapper section.stars-and-description .stars-and-marks {
+      width: 13%;
+      float: left; }
+      .komentari .komentari-i-ocene-wrapper section.stars-and-description .stars-and-marks .stars {
+        margin-top: 12px; }
+        .komentari .komentari-i-ocene-wrapper section.stars-and-description .stars-and-marks .stars .stars-picture {
+          float: left;
+          margin-right: 1px; }
+      .komentari .komentari-i-ocene-wrapper section.stars-and-description .stars-and-marks .main-marks {
+        padding-top: 14px;
+        line-height: 20px; }
+        .komentari .komentari-i-ocene-wrapper section.stars-and-description .stars-and-marks .main-marks p {
+          font-size: 14px;
+          font-family: Myriad Pro;
+          color: #999999;
+          text-align: right; }
+          .komentari .komentari-i-ocene-wrapper section.stars-and-description .stars-and-marks .main-marks p span {
+            color: #333333;
+            text-align: right;
+            margin-left: 6px; }
+    .komentari .komentari-i-ocene-wrapper section.stars-and-description .main-description-meal {
+      width: 87%;
+      float: left;
+      padding: 15px 0 0 17px; }
+      .komentari .komentari-i-ocene-wrapper section.stars-and-description .main-description-meal h5 {
+        font-size: 20px;
+        font-family: Myriad Pro;
+        color: #333333; }
+      .komentari .komentari-i-ocene-wrapper section.stars-and-description .main-description-meal h6 {
+        font-size: 14px;
+        font-family: Myriad Pro;
+        color: #da3743;
+        margin: 11px 0; }
+      .komentari .komentari-i-ocene-wrapper section.stars-and-description .main-description-meal p {
+        font-size: 14px;
+        font-family: Myriad Pro;
+        color: #999999;
+        line-height: 20px; }
+    .komentari .komentari-i-ocene-wrapper section.like-share-section {
+      margin-top: 20px; }
+      .komentari .komentari-i-ocene-wrapper section.like-share-section .like, .komentari .komentari-i-ocene-wrapper section.like-share-section .share, .komentari .komentari-i-ocene-wrapper section.like-share-section .comment {
+        float: left; }
+      .komentari .komentari-i-ocene-wrapper section.like-share-section .like {
+        width: 18.5%;
+        margin-left: 1%; }
+        .komentari .komentari-i-ocene-wrapper section.like-share-section .like .like-icon {
+          width: 68%;
+          position: relative;
+          padding-left: 30px; }
+          .komentari .komentari-i-ocene-wrapper section.like-share-section .like .like-icon img {
+            position: absolute;
+            left: 5px;
+            top: 7px; }
+        .komentari .komentari-i-ocene-wrapper section.like-share-section .like .number-of-votes {
+          width: 32%;
+          text-align: center; }
+      .komentari .komentari-i-ocene-wrapper section.like-share-section .share {
+        width: 18.5%;
+        margin: 0 1.5%; }
+        .komentari .komentari-i-ocene-wrapper section.like-share-section .share .share-icon {
+          width: 68%;
+          position: relative;
+          padding-left: 30px; }
+          .komentari .komentari-i-ocene-wrapper section.like-share-section .share .share-icon img {
+            position: absolute;
+            left: 5px;
+            top: 7px; }
+        .komentari .komentari-i-ocene-wrapper section.like-share-section .share .number-of-votes {
+          width: 32%;
+          text-align: center; }
+      .komentari .komentari-i-ocene-wrapper section.like-share-section .comment {
+        width: 59%;
+        position: relative; }
+        .komentari .komentari-i-ocene-wrapper section.like-share-section .comment .subscribe-icon {
+          float: left;
+          width: 8.5%;
+          height: 38px; }
+          .komentari .komentari-i-ocene-wrapper section.like-share-section .comment .subscribe-icon img {
+            position: absolute;
+            left: 11px;
+            top: 9px; }
+        .komentari .komentari-i-ocene-wrapper section.like-share-section .comment .input-for-comment {
+          float: left;
+          width: 83%;
+          height: 38px;
+          padding: 0; }
+          .komentari .komentari-i-ocene-wrapper section.like-share-section .comment .input-for-comment input {
+            width: 100%;
+            height: 36px;
+            border: none;
+            padding-left: 10px; }
+        .komentari .komentari-i-ocene-wrapper section.like-share-section .comment .number-of-votes {
+          float: left;
+          width: 8.5%;
+          text-align: center; }
+  .komentari .pozovi-me-na-veceru {
+    float: right;
+    width: 25%;
+    background-color: #fff; }
+    .komentari .pozovi-me-na-veceru h3 {
+      width: 89%;
+      border-bottom: 1px solid #4d4d4d;
+      margin: 10px;
+      padding-bottom: 12px;
+      margin: auto;
+      margin-top: 23px;
+      font-size: 23px;
+      font-family: Myriad Pro;
+      font-weight: 100;
+      color: #4d4d4d; }
+    .komentari .pozovi-me-na-veceru .main-wrapper-for-pictures-pozovi-naV {
+      padding-bottom: 25px; }
+    .komentari .pozovi-me-na-veceru .wrapper-row-pozovi {
+      margin-top: 28.5px; }
+      .komentari .pozovi-me-na-veceru .wrapper-row-pozovi .wrapper-picture-left {
+        float: left;
+        width: 41%;
+        background: #da3743;
+        margin-left: 6%;
+        margin-right: 3%;
+        height: 112px; }
+      .komentari .pozovi-me-na-veceru .wrapper-row-pozovi .wrapper-picture-right {
+        float: left;
+        width: 41%;
+        background: #da3743;
+        margin-left: 3%;
+        margin-right: 6%;
+        height: 112px; }
+  .komentari .fotografije-gostiju {
+    margin-top: 20px; }
+
+@media only screen and (max-width: 1361px) {
+  .komentari .komentari-i-ocene-wrapper section.stars-and-description .stars-and-marks .main-marks p {
+    font-size: 11px; }
+
+  .komentari .komentari-i-ocene-wrapper .ocene-komentari .ocene-little {
+    font-size: 13px; }
+
+  .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person .person-information {
+    padding-left: 12px; }
+
+  .komentari .komentari-i-ocene-wrapper .ocene-komentari .ocene-little:nth-child(3) {
+    margin-top: -19px; }
+
+  .komentari .komentari-i-ocene-wrapper .ocene-komentari .ocene-little:nth-child(3) div:nth-child(2) {
+    background-position: 2px 18px; }
+
+  .komentari .komentari-i-ocene-wrapper {
+    padding-top: 35px; }
+
+  .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person .person-information p {
+    font-size: 12px; }
+
+  .komentari .komentari-i-ocene-wrapper .komentari-media-object {
+    padding-bottom: 35px; }
+
+  .komentari .komentari-i-ocene-wrapper .komentari-media-object {
+    margin-top: 35px; }
+
+  .komentari .komentari-i-ocene-wrapper {
+    padding-bottom: 60px; }
+
+  .komentari .komentari-i-ocene-wrapper section.stars-and-description .stars-and-marks .stars .stars-picture {
+    width: 15px;
+    height: 14px; } }
+@media only screen and (max-width: 992px) {
+  .komentari .komentari-i-ocene-wrapper {
+    width: 100%; }
+
+  .komentari .pozovi-me-na-veceru {
+    width: 48%;
+    float: left;
+    margin-top: 20px; }
+
+  .komentari .fotografije-gostiju {
+    float: right; } }
+@media only screen and (max-width: 767px) {
+  .komentari .komentari-i-ocene-wrapper {
+    float: none;
+    width: 100%; }
+
+  .komentari .pozovi-me-na-veceru {
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+    float: none;
+    padding-top: 1px;
+    margin-top: 20px; }
+
+  .komentari .fotografije-gostiju {
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+    float: none;
+    padding-top: 1px;
+    margin-top: 20px; }
+
+  .komentari .komentari-i-ocene-wrapper section.like-share-section {
+    display: none; }
+
+  /*odavnde komentari*/
+  .komentari .komentari-i-ocene-wrapper .komentari-i-ocene {
+    width: 100%;
+    margin-bottom: 25px; }
+
+  .komentari .komentari-i-ocene-wrapper .ocene-komentari {
+    width: 100%; }
+
+  .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person {
+    width: 100%;
+    float: none; }
+
+  .komentari .komentari-i-ocene-wrapper section.description-person-section .icons-marks {
+    width: 100%;
+    float: none; }
+
+  .komentari .komentari-i-ocene-wrapper section.stars-and-description .stars-and-marks {
+    width: 100%;
+    max-width: 81px;
+    margin: auto;
+    margin: auto !Important;
+    float: none; }
+
+  .komentari .komentari-i-ocene-wrapper section.stars-and-description .main-description-meal {
+    width: 100%;
+    padding-left: 0;
+    margin: auto; }
+
+  .komentari .komentari-i-ocene-wrapper section.description-person-section .description-person .place-for-picture {
+    max-width: 120px; } }
+
+/*# sourceMappingURL=style.css.map */

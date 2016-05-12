@@ -1,0 +1,816 @@
+.slider-wrapper {
+	max-height: 550px;
+	overflow: hidden;
+	.item {
+
+		img {
+			width: 100%;
+		}
+
+
+	}
+
+	.glyphicon-chevron-left, .glyphicon-chevron-right {
+		top: 250px;
+	}
+
+	#myCarousel {
+		max-height: 550px !Important;
+	}
+
+	.bottom-div-header {
+		background: rgba(105, 99, 95, 0.86);
+	    height: 110px;
+	    z-index: 11;
+	    position: absolute;
+	    bottom: 0;
+	    width: 100%;
+	}
+
+
+}
+
+.main-wrapper-logo {
+	width: 130px;
+	height: 130px;
+	background-color: $mainColor;
+	position: absolute;
+    top: 38px;
+    z-index: 2;
+
+    img {
+    	display: block;
+    	margin: auto;
+    	margin-top: 9px;
+    }
+
+    h6 {
+    	text-align: center;
+    	color: #fff;
+    	font-size: 12px;
+    	margin-top: 5px;
+    }
+
+}
+
+.wrapper-for-big-linkgs {
+	position: absolute;
+    top: 38px;
+    background-color: rgba(88, 50, 37, 0.6);
+    width: 100%;
+    height: 80px;
+
+    .drowdownMenu-restorani-Main, .drowdown-menu-karticeZaPopuste {
+    	position: absolute;
+	    margin-left: 130px;
+	    background-color: rgba(218, 55, 67, 0.8);
+	    padding: 23px 23px 0 23px;
+	    width: 76%;
+	    z-index: 2;
+	    display: none;
+
+	    ul {
+	    	float: left;
+	    	margin-left: 18px;
+	    	li {
+	    		color: #fff;
+	    		font-size: 19px;
+	    		font-family: Myriad Pro;
+	    		margin: 4px 0;
+	    	}
+
+	    	li:first-child {
+	    		margin-bottom: 14px;
+	    	}
+
+	    	a {
+	    		color: #fff;
+	    		font-size: 14px;
+	    		font-family: Myriad Pro;
+
+	    	}
+
+	    }
+
+	    ul:first-child {
+	    	margin-left: 0;
+	    }
+
+    }
+
+    .drowdown-menu-karticeZaPopuste {
+    	margin-left: 500px;
+    	width: 50%;
+    }
+
+}
+
+
+.big-links {
+	margin-left: 130px;
+	height: 80px;
+	position: relative;
+
+	li {
+		float: left;
+		display: inline;
+		width: 135px;
+		padding-top: 25px;
+		height: 80px;
+		border-right: 1px solid #fff;
+		a {
+			display: block;
+		    color: #fff;
+		    width: 112px;
+		    text-align: center;
+		    margin: auto;
+		    line-height: 18px;
+		    font-size: 15px;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	li:nth-child(1) {
+		a {
+			width: 115px;
+
+			span:first-child {
+				float: left;
+			}
+			span:nth-child(2) {
+				float: left;
+				margin: 10px 0 0 6px;
+			}
+
+		}
+		
+	}
+
+	li:nth-child(5) {
+		a {
+			width: 121px;
+
+			span:first-child {
+				float: left;
+				width: 90px;
+			}
+
+			span:nth-child(2) {
+				float: left;
+				width: 25px;
+				margin: 8px 0 0 3px;
+			}
+
+		}
+
+
+	}
+
+
+	li:nth-child(8) {
+
+		a {
+			width: 105px;
+		}
+
+		
+	}
+
+	.wrapper-for-search {
+		position: absolute;
+    	right: 0;
+    	img:first-child {
+    		position: absolute;
+		    right: 0;
+		    top: 15px;
+    	}
+    	img:nth-child(2) {
+    	    position: absolute;
+    		right: 15px;
+    		top: 25px;
+    	}
+
+    	.seach-box {
+    		width: 420px;
+    		height: 50px;
+    		display: none;
+    		input {
+    			width: 100%;
+    			height: 50px;
+   		 		padding-left: 20px;
+   		 		position: absolute;
+    			right: 70px;
+    			top: 14px;
+
+    		}
+
+    	}
+
+	}
+
+}
+
+.wrapper-for-secondLogo {
+    position: absolute;
+    bottom: 0;
+
+    img:first-child {
+    	position: absolute;
+	    bottom: -8px;
+	    width: 131px;
+	    height: 133px
+    }
+
+    img:nth-child(2) {
+    	position: absolute;
+	    bottom: 0;
+	    right: -124px;
+	    top: -70px;
+    }
+
+}
+
+
+.title-header-restoran {
+	color: #fff;
+	font-size: 37px;
+	text-align: left;
+	font-family: Myriad Pro;
+	margin-left: 150px;
+	font-weight: normal;
+
+}
+
+.description-restorant-bottom {
+
+	div:first-child {
+		float: left;
+	}
+
+	div:nth-child(2) {
+		float: left;
+		margin: 25px 0 0 20px;
+
+		span {
+			font-size: 15px;
+			border: 1px solid #fff;
+			padding: 10px 23px;
+			color: #fff;
+		}
+
+	}
+
+
+}
+
+
+.description-restoran-bottom2 {
+	
+	.description {
+		font-size: 23px;
+		color: #fff;
+		font-family: Myriad Pro;
+		margin-left: 150px;
+	}	
+
+
+}
+
+#myCarousel {
+
+	.carousel-indicators {
+		position: absolute;
+	    bottom: 35px;
+	    z-index: 15;
+	    width: 300px;
+	    padding-left: 0;
+	    margin-left: 0;
+	    text-align: center;
+	    list-style: none;
+	    left: 70%;
+
+	    li {
+	    	width: 21px;
+    		height: 21px;
+    		background-color: #fff;
+    		margin-right: 8px;
+
+	    }
+
+	    .active {
+    		background-color: $mainColor;
+    		margin: 0;
+    		border: 1px solid $mainColor;
+    		margin-right: 8px;
+    	}
+
+
+	}
+	
+	.arrowLeft {
+		background-image: url("../pictures/slider/arrowLeft.png");
+		width: 52px;
+		height: 52px;
+		background-size: 52px 52px;
+	    top: 44%;
+    	position: absolute;
+    	margin-top: -26px;
+    	right: 0;
+    	@include tansitionDelay(.2s);
+    	transition-duration: .3s;
+
+    	&:hover {
+    		@include tansitionDelay(0s);
+    		transition-property: all;
+    		transition-duration: .5s;
+    		@include transitionR(20px, 0, 1.2, 1.2);
+    		    
+    	}
+	}
+
+
+	.arrowRight {
+		background-image: url("../pictures/slider/arrowRight.png");
+		width: 52px;
+		height: 52px;
+		background-size: 52px 52px;
+	    top: 44%;
+    	position: absolute;
+    	margin-top: -26px;
+    	left: 0;
+    	@include tansitionDelay(.2s);
+    	transition-duration: .3s;
+
+    	&:hover {
+    		@include tansitionDelay(0s);
+    		transition-property: all;
+    		transition-duration: .5s;
+    		@include transitionR(-20px, 0, 1.2, 1.2);
+    		    
+    	}
+	}
+
+	.left,.carousel-control {
+		background-image: none;
+	}
+
+	.right,.carousel-control {
+		background-image: none;
+	}
+
+
+}
+
+
+
+.description-restoran {
+		position: absolute;
+		right: 60px;
+		top: 150px;
+		h6 {
+			max-width: 320px;
+		    background-color: rgba(58, 185, 220, 0.9);
+		    font-size: 14px;
+		    padding: 10px 10px 20px 10px;
+		    color: #fff;
+
+		}
+		
+		.more {
+			width: 105px;
+			height: 35px;
+			text-align: center;
+    		line-height: 35px;
+    		color: #fff;
+			background-color: rgba(89, 87, 89, 0.7);
+			position: absolute;
+    		right: 10px;
+    		bottom: -20px;
+		}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1361px) {
+
+
+	.wrapper-for-big-linkgs {
+		top: 78px;
+
+		.drowdown-menu-karticeZaPopuste {
+			margin-left: 300px;
+		}
+
+		.drowdownMenu-restorani-Main ul li {
+			font-size: 15px;
+		}
+
+		.drowdownMenu-restorani-Main ul a {
+			font-size: 12px;
+		}
+
+		.drowdown-menu-karticeZaPopuste ul li:first-child {
+			font-size: 15px;
+		}
+
+		.drowdown-menu-karticeZaPopuste ul a {
+			font-size: 12px;
+		}
+
+	}
+
+	.main-wrapper-logo {
+		top: 78px;
+	}
+
+	.big-links {
+
+		li {
+			width: 89px;
+
+		li:nth-child(8) {
+			width: 89px;
+
+		}
+
+
+			a {
+				width: 89px;
+				font-size: 12px;
+			}
+
+
+		}
+
+		li:nth-child(1) a span:nth-child(2) {
+		    margin: 25px 0 0 -45px;
+		}
+
+		li:nth-child(1) a span:first-child {
+		    margin-left: 10px;
+		}
+
+		li:nth-child(5) a span:nth-child(2) {
+			margin: 36px 0 0 -60px;
+		}
+
+	}
+
+	.big-links li:nth-child(8) a {
+		width: 89px !Important;
+		font-size: 12px;
+	}
+
+	.description-restoran {
+		top: 200px;
+	}
+
+	
+
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	.wrapper-for-secondLogo img:first-child {
+		bottom: -8px;
+	    width: 90px;
+	    height: 90px;
+	}
+
+	.wrapper-for-secondLogo img:nth-child(2) {
+		width: 82px;
+	    height: 28px;
+	    left: 4px;
+	    top: -53px;
+	    right: -124px;
+	}
+
+	.slider-wrapper .bottom-div-header {
+		height: 80px;
+	}
+
+	.title-header-restoran {
+		margin-left: 110px;
+		font-size: 28px;
+	}
+
+	.description-restorant-bottom div:nth-child(2) {
+	    margin: 20px 0 0 15px;
+
+	    span {
+	    	font-size: 12px;
+		    border: 1px solid #fff;
+		    padding: 6px 14px;
+	    }
+
+	}
+
+	.description-restoran-bottom2 .description {
+		margin-left: 110px;
+		font-size: 17px;
+	}
+
+
+	#myCarousel .carousel-indicators {
+		left: 65%;
+		bottom: 22px;
+
+		li {
+			width: 15px;
+			height: 15px;
+		}
+
+	}
+
+	.description-restoran {
+		top: 185px;
+		right: 50px;
+
+		h6 {
+			font-size: 13px;
+	    	padding: 7px 7px 14px 7px;
+	    	line-height: 17px;
+		}
+
+	}
+
+
+	.big-links li {
+		width: 69px;
+
+		a {
+			width: 69px;
+			font-size: 10px;
+			line-height: 15px;
+		}
+	}
+
+	.big-links li:nth-child(1) a span:first-child {
+		margin-left: 4px;
+
+	}
+
+	.big-links li:nth-child(1) a span:nth-child(2) {
+		margin: 21px 0 0 -36px;
+	}
+	
+	.big-links li:nth-child(5) a span:first-child {
+		width: 69px;
+
+		img {
+			width: 14px;
+			height: 8px;
+		}
+	}
+
+	.big-links li:nth-child(5) a span:nth-child(2) {
+		margin: 30px 0 0 -47px;
+	}
+
+	.big-links li:nth-child(5) a img {
+		width: 14px;
+		height: 8px;
+	}
+
+	.big-links li:nth-child(1) a img {
+		width: 14px;
+		height: 8px;
+	}
+
+	.big-links li:nth-child(8) a {
+		font-size: 10px;
+		width: 69px !Important;
+	}
+
+	.drowdownMenu-restorani-Main {
+		width: 95% !Important;
+		margin-left: 0 !Important;
+	}
+
+	.wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul li {
+		font-size: 14px;
+		line-height: 11px !Important;
+	}
+
+	.wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul a {
+		font-size: 11px;
+		line-height: 11px !Important;
+
+	}
+
+	.wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul li:first-child {
+		font-size: 14px;
+	}
+
+	.wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul a {
+		font-size: 11px;
+		line-height: 11px !Important;
+	}
+
+	.wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul li {
+		font-size: 14px;
+	}
+
+	.wrapper-for-big-linkgs {
+		top: 75px !Important;
+	}
+
+	.main-wrapper-logo {
+		top: 75px !Important;
+	}
+
+	.wrapper-language {
+	    padding-top: 13px;
+	    font-size: 15px !Important;
+	}
+
+	.wrapper-for-big-linkgs {
+		height: 70px;
+	}
+
+	.big-links {
+		height: 70px;
+
+		li {
+		    padding-top: 20px;
+		}
+
+
+	}
+
+	.big-links li {
+		height: 70px !Important;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+	.bottom-div-header {
+		display: none;
+	}
+
+	.carousel-indicators {
+		display: none;
+	}
+
+
+	.description-restoran {
+		display: none;
+	}
+
+
+	.big-links {
+		width: 100%;
+		background-color: red;
+		margin-left: 0 !Important;
+		z-index: 1111;
+		display: none;
+		li {
+			width: 100% !Important;
+			display: block !Important;
+			background-color: #c65353 !Important;
+			padding: 10px 0 !Important;
+			height: auto !Important;
+			border-bottom: 2px solid #fff;
+
+			a {
+				width: 100%;
+				font-size: 15px;
+				line-height: 18px;
+			}
+		}
+
+		li:nth-child(1) a {
+			width: 95px !Important;
+		}
+
+		li:nth-child(5) a {
+			width: 170px !Important;
+		}
+
+		li:nth-child(1) a span:nth-child(2) {
+			margin: 20px 0 0 -52px;
+
+		}
+
+		li:nth-child(5) a span:first-child {
+			width: 170px !Important;
+
+		} 
+
+		li:nth-child(5) a span:nth-child(2) {
+			margin: 20px 0 0 -102px;
+		}
+
+		li:nth-child(8) a {
+			font-size: 15px !Important;
+			width: 100% !Important;
+		}
+
+		.wrapper-for-search {
+			display: none;
+		}
+
+	}
+
+	.wrapper-for-big-linkgs {
+		top: 79px !Important;
+		background-color: rgba(88, 50, 37, 0);
+	}
+
+	.main-wrapper-logo {
+		display: none;
+	}
+
+	.drowdownMenu-restorani-Main {
+		z-index: 111111 !Important;
+	}
+
+	.wrapper-for-big-linkgs .drowdownMenu-restorani-Main ul {
+		float: none !Important;
+		margin: 0 !Important;
+		margin-top: 30px !Important;
+
+		li:first-child {
+			font-size: 18px;
+		}
+
+		a {
+			font-size: 15px !Important; 
+			line-height: 16px !Important;
+		}
+	}
+
+	.drowdownMenu-restorani-Main {
+		width: 90% !Important;
+		padding-top: 0 !Important;
+		top: 58px !Important;
+	}
+
+	.drowdown-menu-karticeZaPopuste {
+		margin-left: 0 !Important;
+    	z-index: 111111 !Important;
+    	width: 89% !Important;
+        top: 237px !Important;
+        padding-top: 0 !Important;
+
+        ul {
+        	float: none !Important;
+			margin: 0 !Important;
+			margin-top: 30px !Important;
+
+			
+
+			a {
+				font-size: 15px !Important; 
+				line-height: 16px !Important;
+			}
+        }
+
+	}
+
+	.wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul li:first-child {
+		font-size: 18px !Important;
+	}
+
+	.wrapper-for-big-linkgs .drowdown-menu-karticeZaPopuste ul a {
+		line-height: 16px !Important;
+	}
+
+	.main-navigation-bar li a {
+		width: 100% !Important;
+		display: inline-block;
+    	text-align: center;
+	}
+
+	#myCarousel .arrowLeft {
+		background-size: 40px 40px;
+		width: 40px;
+		height: 40px;
+		margin-top: -10px !Important;
+	}
+
+	#myCarousel .arrowRight {
+		background-size: 40px 40px;
+		width: 40px;
+		height: 40px;
+		margin-top: -10px !Important;
+	}
+
+
+}
+
+
+

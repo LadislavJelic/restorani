@@ -1,0 +1,293 @@
+.dostava-hrane {
+
+	background-color: $backgroundMainColor;
+
+    .wrapper-slider-restorani {
+        margin-top: 0;
+
+        .nav, .nav-tabs {
+            width: 97.6%;
+            margin: auto;
+        }
+
+        .tab-content {
+            margin-left: 9px;
+        }
+
+        .owl-next {
+            right: -51px !Important;
+        }
+
+        .owl-prev {
+            left: -60px !Important;
+        }
+
+        .reserve {
+            display: none;
+        }
+
+        .discount-with-card {
+            bottom: 34px !Important;
+            background-color: #cccc00 !Important;
+        }
+
+    }
+
+
+	/*.container h2.title {
+        font-size: 37px;
+        font-family: Myriad Pro;
+        color: $fontColor;
+        margin-top: 25px;
+       
+    }*/
+
+    .inner-wrapper-dostava-hrane {
+    	width: 100%;
+    	height: 250px;
+    	background-image: url("../pictures/backgroundPictures/Untitled-1.jpg");
+    	background-size: 100% 250px;
+    	background-repeat: no-repeat;
+    	padding-top: 60px;
+    }
+
+    .wrapper-for-drop-menu-dostavaHrane {
+    	background-color: rgba(255, 255, 255, 0.75);
+    	padding: 15px 20px 25px 20px;
+    	width: 60%;
+    	margin: auto;
+    	font-size: 23px;
+    	font-family: Myriad Pro;
+    	
+
+    	h4 {
+    		text-align: center;
+    		font-weight: normal;
+    		margin-bottom: 18px;
+    		color: #4d4d4d;
+    	}
+    	
+
+
+    	.dropdown-menu-dostavaHrane {
+    		float: left;
+    		width: 24%;
+
+    		select {
+    			width: 100%;
+    			height: 48px;
+    			line-height: 48px;
+    			font-size: 14px;
+    			font-family: Myriad Pro;
+    			padding-left: 20px;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                background-image: url("../pictures/strelice/arrowDown.png");
+                background-repeat: no-repeat;
+                background-size: 21px 12px;
+                background-position: 136px 18px; 
+    		}
+
+    	}
+
+    	.submit-button {
+    		float: left;
+    		width: 28%;
+    		font-size: 16px;
+    		font-family: Myriad Pro;
+    		letter-spacing: 1px;
+
+    		input {
+    			width: 100%;
+    			height: 48px;
+    			line-height: 48px;
+    		}
+
+    	}
+
+    	.search {
+    		float: left;
+    		width: 16%;
+    		background-color: $mainColor;
+    		text-align: center;
+    		line-height: 48px;
+    		color: #fff;
+    		outline: none;
+    		border: none;
+    		letter-spacing: 1px;
+    	}
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1361px) {
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane select {
+        height: 41px;
+        line-height: 41px;
+        font-size: 13px;
+        background-size: 14px 8px;
+        background-position: 96px 18px;
+    }
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .submit-button input {
+        height: 41px;
+        line-height: 41px;
+        font-size: 15px;
+    }
+
+    .dostava-hrane .wrapper-slider-restorani .nav, .dostava-hrane .wrapper-slider-restorani .nav-tabs {
+        width: 97.8%;
+        margin: auto;
+        margin-left: 1.7%;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-prev {
+        left: -55px !Important;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-next {
+        right: -45px !Important;
+    }
+
+    .dostava-hrane .nav-tabs > li:nth-child(3) a {
+        padding: 13px 0 !Important;
+    }
+
+    .dostava-hrane .wrapper-slider-restorani .nav-tabs > li a {
+        padding: 0 15px !Important;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .item .wrapper-little-res .discount-with-card {
+        width: 110px;
+        height: 26px;
+        font-size: 12px;
+        right: 1px;
+        bottom: 35px;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture h5 {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture h6 {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture p {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture .mark {
+        font-size: 12px;
+        width: 35px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-prev {
+        background-repeat: no-repeat;
+        left: -35px !Important;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .owl-buttons .owl-next {
+        right: -25px !Important;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane select {
+        background-position: 74px 17px;
+        padding-left: 10px;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .wrapper-for-drop-menu-dostavaHrane {
+        width: 80% !Important;
+        margin: auto;
+    }
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane {
+        padding: 15px 0px 0px 0px;
+        max-width: 220px !Important;
+    }
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane h4 {
+        font-size: 16px;
+    }
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane {
+        width: 100%;
+    }
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .submit-button {
+        width: 100%;
+    }
+
+    .dostava-hrane .inner-wrapper-dostava-hrane {
+        padding-top: 20px;
+    }
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane select {
+        background-position: 192px 17px;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .item .text-under-picture .wrapper-mark {
+        display: none;
+    }
+
+    #owl-demo2 .item {
+        padding-bottom: 36px !Important;
+    }
+
+    .dostava-hrane .wrapper-slider-restorani .discount-with-card {
+        bottom: -130px !Important;
+        left: 0;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo2 .item .wrapper-little-res .little-logo {
+        display: none;
+    }
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane {
+        background-color: #fff;
+    }
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane h4 {
+        margin-bottom: 11px;
+    }
+
+
+
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+
+    .dostava-hrane .wrapper-for-drop-menu-dostavaHrane .dropdown-menu-dostavaHrane select {
+        background-image: none;
+    }
+
+
+}

@@ -1,0 +1,199 @@
+.title {
+    font-size: 37px;
+    font-family: Myriad Pro;
+    color: $fontColor;
+    margin-top: 25px;
+       
+}
+
+.nav-tabs li {
+	font-size: 15px;
+	font-family: #Myriad Pro;
+}
+
+.nav-tabs li a {
+	line-height: 28px;
+}
+
+.restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h4 {
+	font-weight: 100 !Important;
+}
+
+.subTitle-section {
+  font-size: 21px;
+  font-family: Myriad Pro;
+  color: #4d4d4d;
+  font-weight: normal;
+  margin-top: 12px;
+  letter-spacing: 1px; 
+
+}
+
+.submit-buttons {
+	font-size: 16px;
+	font-family: Myriad Pro;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	background-color: $mainColor;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.comment-like-share-section {
+	float: left;
+	padding: 10px 0;
+	border: 1px solid #e0e0e0;
+}
+
+.rotate {
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+
+
+
+
+ .multiselect, .multiselect1 {
+    width: 100%;
+    -webkit-appearance: none;
+    color: #4d4d4d;
+   /* background-image: url("../pictures/strelice/arrowDown.png");
+    background-repeat: no-repeat;
+    background-size: 21px 12px;
+    background-position: 140px 16px;*/
+}
+ 
+.selectBox, .selectBox1 {
+    position: relative;
+}
+
+.selectBox select, .selectBox1 select {
+    width: 100%;
+    font-weight: 100;
+}
+    
+.overSelect, .overSelect1 {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+
+#checkboxes, #checkboxes1 {
+    display: none;
+    border: 1px #dadada solid;
+    width: 100% !Important;
+    position: absolute;
+    background-color: #fff;
+    padding: 5px;
+}
+
+#checkboxes label, #checkboxes1 label {
+    display: block;
+    input {
+    	margin-right: 5px;
+    }
+}
+
+#checkboxes label:hover, #checkboxes1 label:hover {
+    background-color: $backgroundMainColor;
+}
+
+#owl-demo .item{
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#owl-demo2 .item{
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#owl-demo3 .item{
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#owl-demo5 .item {
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 1361px) {
+
+	#checkboxes label, #checkboxes1 label {
+	    display: block;
+	    font-size: 12px;
+	    margin: 10px 0;
+	    input {
+	    	float: left;
+	    	font-size: 12px;
+	    	margin-top: 0;
+	    }
+	}
+
+	.title {
+		font-size: 34px;
+		margin-top: 20px;
+	}
+
+	.maps-restorant .list-in-map-restorants .another-objects select {
+		background-size: 14px 8px;
+    	background-position: 155px 20px;
+	}
+
+	.maps-restorant .list-in-map-restorants .tip-restorants select {
+		background-size: 14px 8px;
+    	background-position: 155px 20px;
+	}
+
+	#owl-demo .item, #owl-demo2 .item, #owl-demo3 .item, #owl-demo5 .item {
+		padding: 25px 0;
+	}
+
+	
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .title {
+        font-size: 25px !Important;
+    }
+
+
+
+
+
+}

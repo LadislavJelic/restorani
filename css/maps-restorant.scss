@@ -1,0 +1,249 @@
+.maps-restorant {
+	
+	background-color: $backgroundMainColor;
+
+	.container {
+		position: relative;
+	}
+
+	/*.container h2.title {
+        font-size: 37px;
+        font-family: Myriad Pro;
+        color: $fontColor;
+
+       
+    }*/
+
+    .inner-wrapper-for-maps {
+       	background: #fff;
+    	padding: 2% 2% 0.2% 2%;
+    }
+
+    .list-in-map-restorants {
+    	.number-restorants, .tip-restorants, .another-objects, .naiv-adresa-restorana {
+    		float: left;
+    		width: 21%;
+    		height: 48px;
+    		line-height: 48px;
+    		border: 1px solid #ebebeb;
+    		
+
+
+    		select {
+    			width: 100%;
+    			height: 100%;
+    			border: none;
+    			border: 1px solid #ebebeb;
+    			padding-left: 20px;
+    			-webkit-appearance: none;
+                -moz-appearance: none;
+				background-image: url("../pictures/strelice/arrowDown.png");
+				background-repeat: no-repeat;
+				background-size: 21px 12px;
+				background-position: 215px 16px;
+    			&:focus {
+    				border-bottom: 2px solid #ebebeb;
+    				outline: none;
+    			}
+    		}
+    	}
+
+    	.number-restorants {
+    		padding-left: 20px;
+    	}
+
+    	.naiv-adresa-restorana {
+    		padding-left: 40px;
+    	}
+
+
+    	.tip-restorants, .another-objects {
+    		border: none;
+    	}
+
+    	.search {
+    		float: left;
+    		width: 16%;
+    		background-color: $mainColor;
+    		text-align: center;
+    		line-height: 48px;
+    		color: #fff;
+    		outline: none;
+    		border: none;
+    	}
+
+    }
+
+
+    .legend-in-map {
+    	background-color: #fff;
+    	width: 260px;
+    	height: 350px;
+    	position: absolute;
+    	bottom: 70px;
+    	right: 40px;
+
+    	h4 {
+    		margin: 15px 0 0 40px;
+
+  
+
+  	  	}
+
+  	  	.wrapper-for-checkbox {
+
+  	  		border-bottom: 1px solid #ebebeb;
+    		width: 90%;
+    		margin: auto;
+    		padding-bottom: 5px;
+    		font-size: 13px;
+
+  	  		input {
+  	  			width: 17px;
+  	  			height: 17px;
+  	  			margin-right: 5px;
+  	  			vertical-align: -2px;
+  	  		}
+
+  	  		img {
+  	  			float: right;
+  	  			margin-right: 3px;
+  	  			margin-top: 4px;
+  	  		}
+  	  	}
+
+    }
+
+    .white-bottom {
+    	height: 50px;
+    	background-color: #fff;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1361px) {
+
+    .maps-restorant .list-in-map-restorants .number-restorants {
+        height: 41px;
+        line-height: 41px;
+        font-size: 14px;
+    }
+
+    .maps-restorant .list-in-map-restorants .tip-restorants {
+        height: 41px;
+        line-height: 41px;
+        background-position: 155px 17px;
+        font-size: 14px;
+    }
+
+    .maps-restorant .list-in-map-restorants .another-objects {
+        height: 41px;
+        line-height: 41px;
+        background-position: 155px 17px;
+        font-size: 14px;
+    }
+
+    .maps-restorant .list-in-map-restorants .naiv-adresa-restorana {
+        height: 41px;
+        line-height: 41px;
+        padding-left: 20px;
+        font-size: 13px;
+    }
+
+
+    .maps-restorant .list-in-map-restorants .search {
+        height: 41px;
+        line-height: 41px;
+        font-size: 15px;
+    }
+
+    #map {
+        height: 380px !Important;
+    }
+
+    .maps-restorant .white-bottom {
+        height: 35px;
+    }
+
+    .maps-restorant .legend-in-map {
+        bottom: 52px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .maps-restorant .list-in-map-restorants .tip-restorants select, .maps-restorant .list-in-map-restorants .another-objects select {
+        background-position: 121px 17px !Important;
+    }
+
+
+    .naiv-adresa-restorana {
+        line-height: 15px !Important;
+        padding-top: 5px !Important;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .maps-restorant .legend-in-map {
+        display: none;
+    }
+
+
+    .maps-restorant .list-in-map-restorants .number-restorants, .maps-restorant .list-in-map-restorants .tip-restorants, .maps-restorant .list-in-map-restorants .another-objects {
+        width: 100%;
+    }
+
+    .maps-restorant .list-in-map-restorants .naiv-adresa-restorana {
+        width: 100%;
+        padding-top: 13px !Important;
+    }
+
+    .maps-restorant .list-in-map-restorants .search {
+        width: 100%;
+        
+    }
+
+    .list-in-map-restorants {
+        max-width: 265px !Important;
+        margin: auto;
+    }
+
+    .maps-restorant .list-in-map-restorants .tip-restorants select {
+        background-position: 235px 17px !Important;
+    }
+
+    .maps-restorant .list-in-map-restorants .another-objects select {
+        background-position: 235px 17px !Important;
+    }
+
+
+}
+
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+    .maps-restorant .list-in-map-restorants .tip-restorants select {
+        background-image: none;
+    }
+
+    .maps-restorant .list-in-map-restorants .another-objects select {
+        background-image: none;
+    }
+
+
+}

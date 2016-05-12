@@ -1,0 +1,262 @@
+.akcije-i-popusti {
+    padding-bottom: 0;
+	background-color: #f3f2f1;
+
+	/*.container h2.title {
+        font-size: 37px;
+        font-family: Myriad Pro;
+        color: $fontColor;
+        margin-top: 25px;
+       
+    }*/
+
+    .nav>li>a {
+    	padding: 0;
+
+    	select {
+    		width: 100%;
+    		height: 48px;
+    		line-height: 48px;
+    		padding-left: 12px;
+    		outline: none;
+    		border: none;
+    	}
+
+
+    }
+
+
+    .nav-tabs {
+        border-bottom: 3px solid #ddd;
+    }
+
+    .main-wrapper-dropdown-akcije-i-popusti {
+
+    	width: 97.4%;
+    	margin-left: 14px;
+
+    	.drowdown-menu-akcije-i-popusti {
+    		float: left;
+    		width: 21%;
+
+    		select {
+    			width: 100%;
+    			height: 48px;
+    			line-height: 48px;
+    			padding-left: 12px;
+    		    -webkit-appearance: none;
+                -moz-appearance: none;
+    			background-image: url("../pictures/strelice/arrowDown.png");
+    			background-repeat: no-repeat;
+   				background-size: 21px 12px;
+    			background-position: 216px 18px;
+    			border: none;
+    			border: 1px solid #ebebeb;
+
+    			&:focus {
+    				outline: none;
+    				border: none;
+    				border-right: 1px solid #ebebeb;
+    				border-left: 1px solid #ebebeb;
+    				border-top: 1px solid #ebebeb;
+    				border-bottom: 2px solid $mainColor;
+    				color: $mainColor;
+
+    				option {
+    					color: #333333;
+    				}
+
+    			}
+    		}
+
+    	}
+
+    	.search {
+    		width: 16%;
+    		float: left !Important;
+    		border: none !Important;
+    		input.submit-buttons {
+    			width: 100%;
+    			height: 48px;
+    			line-height: 48px;
+    			border: none !Important;
+    		}
+
+
+
+
+    	}
+
+    	
+
+
+
+    }
+
+
+
+    .discount-with-card {
+    	display: none !Important; 
+    }
+
+    .text-under-picture {
+    	h4 {
+    		color: $mainColor;
+    		font-weight: 100;
+    		font-size: 20px;
+    	}
+
+    	h5 {
+    		font-weight: 100;
+    		letter-spacing: 1px;
+    	}
+
+    	.wrapper-mark {
+    		display: none;
+    	}
+
+    	.wrapper-for-place-and-price-akcije-popusti {
+    		color: #333333;
+    		margin-top: 40px;
+    		img {
+    			float: left;
+    			
+    		}
+
+    		.place {
+    			margin-left: 10px;
+    			font-size: 14px;
+    			font-family: Myriad Pro;
+    			letter-spacing: 1px;
+    		}
+
+    		.price {
+    			float: right;
+    			margin-right: 15px;
+    		}
+
+    	}
+
+
+    }
+
+   
+    .wrapper-slider-restorani {
+    	padding-bottom: 10px;
+    }
+}
+
+.item {
+	padding-bottom: 0 !Important;
+}
+
+
+
+@media only screen and (max-width: 1361px) {
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select {
+        height: 41px;
+        line-height: 41px;
+        font-size: 13px;
+        background-size: 14px 8px;
+        background-position: 152px 18px;
+    }
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.submit-buttons {
+        height: 41px;
+        line-height: 41px;
+        font-size: 15px;
+
+
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo3 .owl-buttons .owl-prev {
+        left: -35px !Important;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo3 .owl-buttons .owl-next {
+        right: -25px !Important;
+    }
+
+    .akcije-i-popusti .text-under-picture .wrapper-for-place-and-price-akcije-popusti {
+        margin-top: 30px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti {
+        width: 42%;
+
+        select {
+            background-position: 250px 18px;
+        }
+
+    }
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.submit-buttons {
+            height: 82px;
+            line-height: 82px;
+            
+    }
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search {
+        margin-top: -41px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti {
+        width: 100%;
+        max-width: 265px;
+        display: block;
+    }
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search {
+        width: 100%;
+        margin-top: 0 !Important;
+        
+    }
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .search input.submit-buttons {
+        height: 41px;
+        line-height: 41px;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo3 .item .wrapper-little-res .little-logo {
+        display: none;
+    }
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti {
+        max-width: 265px !Important;
+        margin: auto;
+    }
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select {
+        background-position: 237px 18px;
+
+    }
+
+}
+
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+
+    .akcije-i-popusti .main-wrapper-dropdown-akcije-i-popusti .drowdown-menu-akcije-i-popusti select {
+        background-image: none;
+    }
+
+
+}

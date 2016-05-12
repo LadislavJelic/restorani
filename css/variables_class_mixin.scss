@@ -1,0 +1,21 @@
+$mainColor: #da3743;
+$backgroundMainColor: #f3f2f1;
+$fontColor: #4d4d4d;
+
+
+
+
+
+/*# sourceMappingURL=variables.css.map */
+
+@mixin transitionR($width, $height, $widthR, $heightR) {
+	-ms-transform: translate($width, $height) scale($widthR, $heightR); /* IE 9 */
+	-webkit-transform: translate($width, $height) scale($widthR, $heightR); /* Safari */
+	transform: translate($width, $height) scale($widthR, $heightR); /* Standard syntax */
+}
+
+@mixin tansitionDelay($sec) {
+	-webkit-transition-delay: $sec;
+	transition-delay: $sec;
+}
+

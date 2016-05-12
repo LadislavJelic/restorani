@@ -1,0 +1,201 @@
+.vencanja-i-rodjendani {
+
+	background-color: $backgroundMainColor;
+
+
+
+	.wrapper-for-drop-menu-vencanja {
+		width: 80%;
+		padding: 15px 50px 25px 50px;
+
+		.dropdown-menu-vencanja {
+			width: 20%;
+		}
+
+		.submit-button {
+			width: 20%;
+		}
+
+		select {
+			background-position: 150px 18px !Important;
+		}
+
+
+
+	}
+
+	.inner-wrapper-dostava-hrane {
+		width: 100%;
+	    height: 250px;
+	    background-image: url("../pictures/backgroundPictures/Untitled-2.jpg");
+	    background-size: 100% 857px;
+	    background-repeat: no-repeat;
+	    padding-top: 60px;
+        background-position: 0 -470px;
+	}
+
+
+}
+
+
+.restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res .discount-with-card {
+	background-color: #05add7 !Important;
+}
+
+
+
+@media only screen and (max-width: 1361px) {
+
+	.vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja select {
+		background-position: 100px 18px !Important;
+		font-size: 13px;
+	}
+
+	.restorants .wrapper-slider-restorani .nav-tabs > li a {
+		font-size: 13px;
+	}
+
+	.vencanja-i-rodjendani .nav-tabs > li:nth-child(3) a {
+		line-height: 15px;
+		padding-top: 5px !Important;
+	}
+
+	.restorants .wrapper-slider-restorani #owl-demo5 .owl-buttons .owl-prev {
+		left: -35px !Important;
+	}
+
+	.restorants .wrapper-slider-restorani #owl-demo5 .owl-buttons .owl-next {
+		right: -25px !Important;
+	}
+
+	.restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res .discount-with-card {
+		right: 1px;
+		width: 110px;
+	    height: 26px;
+	    font-size: 12px;
+	}
+
+	.restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture h5 {
+		font-size: 12px;
+		font-weight: 100;
+	}
+
+	.restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture h6 {
+		font-size: 12px;
+		font-weight: 100;
+	}
+
+	.restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture p {
+		font-size: 12px;
+		font-weight: 100;
+	}
+
+	.restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture .mark {
+	    font-size: 12px;
+	    width: 35px;
+	    height: 20px;
+	    line-height: 20px;
+	}
+
+	.restorants .wrapper-slider-restorani .nav-tabs > li:nth-child(3).active a {
+		line-height: 15px;
+		padding-top: 5px !Important;
+	}
+
+	.vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja select {
+	    background-position: 100px 18px !Important;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+	.restorants .wrapper-slider-restorani .nav-tabs > li:first-child a {
+		line-height: 41px;
+    	padding-top: 0px !Important;
+	}
+
+	.restorants .wrapper-slider-restorani .nav-tabs > li:nth-child(4) a {
+		line-height: 41px;
+    	padding-top: 0px !Important;
+	}
+
+	.restorants .wrapper-slider-restorani .nav-tabs > li:nth-child(3).active a {
+        padding: 0 !Important;
+        line-height: 41px;
+        height: 41px; 
+    }
+
+    .vencanja-i-rodjendani .wrapper-slider-restorani .nav-tabs > li:nth-child(4) a {
+        line-height: 15px;
+    	padding-top: 5px !Important;
+    }
+
+    .vencanja-i-rodjendani .wrapper-slider-restorani .nav-tabs > li:nth-child(3).active a {
+    	line-height: 15px;
+    	padding: 5px 15px 0 15px !Important;
+    }
+
+    .vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja select {
+	    background-position: 75px 18px !Important;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	.restorants .wrapper-slider-restorani #owl-demo5 .item .text-under-picture .wrapper-mark {
+		display: none;
+	}
+
+	.restorants .wrapper-slider-restorani #owl-demo5 .item .wrapper-little-res .little-logo {
+		display: none;
+	}
+
+	.vencanja-i-rodjendani .nav-tabs > li:nth-child(3) a, .vencanja-i-rodjendani .wrapper-slider-restorani .nav-tabs > li:nth-child(4) a {
+	    padding-top: 11px !Important;
+	}
+
+	.vencanja-i-rodjendani .wrapper-slider-restorani .nav-tabs > li:nth-child(4) a.active {
+		padding-top: 11px !Important;
+	}
+
+	.vencanja-i-rodjendani .wrapper-for-drop-menu-dostavaHrane h4 {
+		margin-bottom: 11px;
+    	display: block;
+    	padding-top: 14px;
+	}
+
+	.vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja .dropdown-menu-vencanja {
+		width: 100%;
+	}
+
+	.vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja {
+		padding: 0px 0 0px 0;
+		max-width: 220px;
+		margin: auto;
+	}
+
+	.vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja .submit-button {
+		width: 100%;
+	}
+
+	.vencanja-i-rodjendani .inner-wrapper-dostava-hrane {
+		width: 100%;
+		padding-top: 20px;
+		height: 285px;
+		background-position: 0;
+    	background-size: cover;
+	}
+
+	.vencanja-i-rodjendani .wrapper-for-drop-menu-vencanja select {
+	    background-position: 190px 18px !Important;
+	}
+
+
+
+}

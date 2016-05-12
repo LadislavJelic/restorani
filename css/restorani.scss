@@ -1,0 +1,597 @@
+.restorants {
+	padding-bottom: 20px;
+	background-color: $backgroundMainColor;
+
+    .wrapper-slider-restorani {
+        margin-top: 0;
+
+        .nav, .nav-tabs {
+            width: 97.6%;
+            margin: auto;
+        }
+
+        .tab-content {
+            margin-left: 9px;
+        }
+
+        .owl-next {
+            right: -51px !Important;
+        }
+
+        .owl-prev {
+            left: -60px !Important;
+        }
+
+
+    }
+
+	/*h2.title {
+        font-size: 37px;
+        font-family: Myriad Pro;
+        color: $fontColor;
+        margin-top: 25px;
+    }*/
+
+
+	.restoraniMain {
+		padding: 2%;
+		background-color: #fff;
+
+		.leftrestoraniMain {
+			width: 18%;
+			float: left;
+			@extend .subTitle-section;	
+			
+			h3 {
+				font-weight: normal;
+			}		
+
+		}
+
+		.dropdownMenuRestorani {
+			width: 82%;
+			float: left;
+
+			.col-sm-4 {
+				padding: 0;
+
+			}
+
+			.col-md-2 select {
+				width: 100%;
+				padding: 15px;
+				background: transparent;
+				border-radius: 0;
+				-webkit-appearance: none;
+                -moz-appearance: none;
+                -o-appearance:none;
+                appearance:none; 
+				background-image: url("../pictures/strelice/arrowDown.png");
+				background-repeat: no-repeat;
+				background-size: 21px 12px;
+				background-position: 140px 16px;
+			}
+
+			.search-wrapper {
+				margin-top: 18px;
+				.wrapper-input {
+					width: 76%;
+					float: left;
+
+					input {
+						width: 100%;
+						padding: 14px 13px 12px 60px;
+						background-image: url("../pictures/icons/loop2.png");
+						background-size: 22px 22px;
+						background-repeat: no-repeat;
+						background-position: 11px 11px;
+
+						&:focus {
+							outline: none;
+						}
+
+					}
+
+
+				}
+
+				.pretraga {
+					width: 24%;
+					float: left;
+					@extend .submit-buttons;
+
+
+
+				}
+
+			}
+
+			.row {
+				margin-left: 0;
+				margin-right: 0;
+			}
+
+
+		}
+
+		.wrapper-slider-restorani {
+			background-color: red;
+			.nav-tabs>li {
+				width: 20%;
+
+			}
+
+		}
+
+
+
+
+
+	}
+
+	.wrapper-slider-restorani {
+		background-color: #fff;
+	    margin-top: 30px;
+	    padding: 20px;
+
+	    .nav-tabs>li {
+	    	width: 20%;
+	    	border-bottom: 1px solid #ddd;
+    		border: 1px solid #ebebeb;
+    		height: 48px;
+    		line-height: 48px;
+    		text-align: center;
+    		margin-bottom: 0;
+
+    		a {
+    			height: 48px;
+    			border-radius: none;
+    			margin-right: 0;
+    			color: #333333;
+
+    			&:hover {
+    				background: none;
+    			}
+    		}
+
+            
+    		
+
+	    }
+
+	    .nav-tabs>li.active a {
+    		border: none;
+    		height: 48px;
+    		border-bottom: 2px solid $mainColor;
+    		color: $mainColor;
+    	}
+
+    	.owl-pagination {
+    		display: none !Important;
+    	}
+
+
+    	#owl-demo, #owl-demo2, #owl-demo3, #owl-demo5 {
+    		.item {
+    			background: none;
+    		}
+
+
+    		.item .wrapper-little-res {
+    			position: relative;
+    		}
+
+    		.item .wrapper-little-res .little-logo {
+    			position: absolute;
+			    bottom: -5px;
+			    left: 10px;
+    		}
+
+    		.item .wrapper-little-res .discount-with-card {
+    			background: #05add7;
+    			width: 130px;
+    			height: 30px;
+    			font-size: 14px;
+    			font-family: Myriad Pro;
+    	        position: absolute;
+    			right: 12px;
+    			bottom: 40px;
+    			line-height: 30px;
+    		}
+
+    		.item .wrapper-little-res .reserve {
+    			background: $mainColor;
+    			width: 130px;
+    			height: 30px;
+    			font-size: 14px;
+    			font-family: Myriad Pro;
+    	        position: absolute;
+    			right: 12px;
+    			bottom: 5px;
+    			line-height: 30px;
+    			letter-spacing: 1px;
+    		}
+
+
+    		.item .text-under-picture {
+    			color: #000;
+    			text-align: left;
+    			position: relative;
+    			h4 {
+    				color: $mainColor;
+    				font-size: 19px;
+    				margin-top: 17px;
+    				font-family: Myriad Pro;
+                    font-weight: 100;
+    			}
+
+    			h5 {
+    				color: #b7b7b7;
+    				margin-top: 5px;
+    				font-family: Myriad Pro;
+    				font-size: 14px;
+    			}
+
+    			h6 {
+    				color: #333333;
+    				margin-top: 5px;
+    				font-family: Myriad Pro;
+    				font-size: 14px;
+    				
+    			}
+
+    			h6 span:nth-child(2) {
+    				color: #b7b7b7;
+    				margin-left: 5px;
+    				font-family: Myriad Pro;
+    				font-size: 14px;
+    			}
+
+    			p {
+    				color: #333333;
+    				margin-top: 5px;
+    				font-family: Myriad Pro;
+    				font-size: 14px;
+    			}
+
+    			p span:nth-child(2) {
+    				color: #b7b7b7;
+    				margin-left: 5px;
+    				font-family: Myriad Pro;
+    				font-size: 14px;
+    			}
+
+    			.wrapper-mark {
+    				position: absolute;
+				    top: 0;
+				    right: 10px;
+    			}
+
+    			.mark {
+    				width: 43px;
+				    height: 25px;
+				    background-color: green;
+				    text-align: center;
+				    line-height: 22px;
+				    color: #fff;
+    			}
+
+    			.mark + p {
+    				color: #a8a8a8;
+    			}
+
+
+    		}
+
+    		.owl-buttons {
+    			
+    			.owl-prev {
+    				color: blue;
+    				background: none;
+    				color: transparent;
+    				background-image: url("../pictures/slider/arowLeftPink.png");
+    				background-size: 23px 43px;
+    				width: 23px;
+    				height: 43px;
+    				opacity: 1;
+    				position: absolute;
+    				left: -55px;
+    				top: 100px;
+    			}
+
+    			.owl-next {
+    				color: blue;
+    				background: none;
+    				color: transparent;
+    				background-image: url("../pictures/slider/arowRightPink.png");
+    				background-size: 23px 43px;
+    				width: 23px;
+    				height: 43px;
+    				opacity: 1;
+    				position: absolute;
+    				right: -55px;
+    				top: 100px;
+    			}
+
+
+    		}
+
+
+    	}
+
+
+
+
+
+	}
+
+
+    .title-all-rest {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 40px;
+        color: #000;
+    }
+	
+}
+
+.restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+    padding: 13px;
+    border: 1px solid #ebebeb;
+}
+
+
+
+
+	
+
+
+@media only screen and (max-width: 1361px) {
+
+    .restorants .restoraniMain .dropdownMenuRestorani .col-sm-2 select {
+        background-size: 14px 8px;
+        background-position: 95px 15px;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .leftrestoraniMain h3 {
+        font-size: 18px;
+    }
+
+    .restorants .wrapper-slider-restorani .owl-prev {
+        left: -55px !Important;
+    }
+
+    .restorants .wrapper-slider-restorani .owl-next {
+        right: -45px !Important;
+    }
+
+    .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .wrapper-input input {
+        padding: 10px 13px 9px 60px;
+        background-size: 20px 20px;
+        background-position: 11px 8px;
+    }
+
+    .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .pretraga {
+        height: 41px !Important;
+    }
+
+
+    .restorants .wrapper-slider-restorani .nav-tabs > li,  .restorants .wrapper-slider-restorani .nav-tabs > li.active {
+        height: 41px;
+        line-height: 41px;
+
+        a {
+            line-height: 41px;
+            height: 41px;
+            padding: 0px 15px;
+        }
+
+    }
+
+    .restorants {
+        padding-bottom: 5px;
+    }
+
+    .restorants .wrapper-slider-restorani .nav-tabs > li .submit-buttons {
+        height: 41px;
+        line-height: 41px;
+        font-size: 15px;
+    }
+
+    .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .pretraga {
+        font-size: 15px;
+    }
+
+    .restorants .wrapper-slider-restorani .nav, .restorants .wrapper-slider-restorani .nav-tabs {
+        width: 97.8%;
+        margin: auto;
+        margin-left: 1.7%;
+    }
+
+    .restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+        font-size: 13px;
+        background-position: 95px 18px;
+        background-size: 14px 8px;
+    }
+
+    .restorants .wrapper-slider-restorani .nav-tabs > li a {
+        padding: 0 5px;
+    }
+
+    .restorants .wrapper-slider-restorani .nav-tabs > li.active a {
+        padding: 0 5px;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .owl-buttons .owl-prev {
+        background-repeat: no-repeat;
+        left: -30px !Important;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .owl-buttons .owl-next {
+        background-repeat: no-repeat;
+        right: -25px !Important;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .discount-with-card {
+        width: 110px;
+        height: 26px;
+        font-size: 12px;
+        right: 1px;
+        bottom: 35px;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .reserve {
+        width: 110px;
+        height: 26px;
+        font-size: 12px;
+        right: 1px;
+        bottom: 4px;
+    }
+
+    .restorants .wrapper-slider-restorani .tab-content {
+        margin-left: 3px;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h5 {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture h6 {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture p {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture .mark {
+        font-size: 12px;
+        width: 35px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+
+    .restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+        background-position: 163px 18px;
+    }
+
+    .restorants .wrapper-slider-restorani .nav-tabs > li:first-child a {
+        padding: 0 !Important;
+        line-height: 41px;
+        height: 41px;
+    }
+
+    
+
+
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .restorants .restoraniMain .leftrestoraniMain {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .restorants .restoraniMain .dropdownMenuRestorani {
+        float: none;
+        text-align: center;
+        width: 100%;
+
+        .row {
+            max-width: 265px;
+            margin: auto;
+        }
+
+        .col-md-2 select {
+            background-position: 230px 18px;
+        }
+    }
+
+    .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .wrapper-input input {
+        padding: 13px 13px 13px 10px;
+        background-image: none;
+        font-size: 11px;
+    }
+
+    .restorants .restoraniMain .dropdownMenuRestorani .search-wrapper .pretraga {
+        font-size: 11px !Important;
+    }
+
+    .restorants .restoraniMain .leftrestoraniMain h3 {
+        margin-bottom: 10px;
+    }
+
+    #checkboxes, #checkboxes1 {
+        position: absolute;
+        z-index: 111111;
+    }
+
+    .span-checkbox {
+        float: left;
+    }
+
+    .restorants .wrapper-slider-restorani .nav-tabs > li {
+        width: 100%;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .text-under-picture .wrapper-mark {
+        display: none;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .little-logo {
+        display: none;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .reserve {
+        bottom: -170px;
+        left: 0;
+    }
+
+    .restorants .wrapper-slider-restorani #owl-demo .item .wrapper-little-res .discount-with-card {
+        bottom: -135px;
+        left: 0;
+    }
+
+    #owl-demo .item {
+        padding-bottom: 75px !Important;
+    }
+
+    .restorants .title-all-rest {
+        font-size: 25px;
+        font-style: italic;
+    }
+
+}
+
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+
+     .restorants .restoraniMain .dropdownMenuRestorani .col-md-2 select {
+        background-image: none;
+    }
+}

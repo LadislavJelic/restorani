@@ -1,0 +1,159 @@
+.rezervacije-restorana {
+	background-color: $backgroundMainColor;
+
+	/*.container h2.title {
+        font-size: 37px;
+        font-family: Myriad Pro;
+        color: $fontColor;
+        margin-top: 25px;
+       
+    }*/
+
+    .dropdown-menu-restorani {
+
+    	.dropdown-menuR {
+    		float: left;
+    		width: 14%;
+    	}
+
+    	.search {
+    		float: left;
+    		width: 16%;
+    		background-color: $mainColor;
+    		text-align: center;
+    		line-height: 48px;
+    		color: #fff;
+    		outline: none;
+    		border: none;
+    		font-family: Myriad Pro;
+    		letter-spacing: 1px;
+    	}
+
+    	select {
+    		width: 100%;
+    		height: 48px;
+    		line-height: 48px;
+    		border: none;
+    	    border: 1px solid #ebebeb;
+    	    -webkit-appearance: none;
+            -moz-appearance: none;
+		    background-image: url("../pictures/strelice/arrowDown.png");
+		    background-repeat: no-repeat;
+		    background-size: 21px 12px;
+		    background-position: 136px 18px;
+		    padding-left: 18px;
+
+    	    &:focus {
+    	    	outline: none;
+    	    }
+    	}
+
+    }
+
+    .inner-wrapper-rezervacije-restorana {
+    	padding: 2% 2% 1.3% 2%;
+    	background: #fff;
+
+    	h3 {
+    		font-size: 23px;
+		    font-family: Myriad Pro;
+		    font-weight: normal;
+		    margin-bottom: 24px;
+		    margin-top: 6px;
+    	}
+
+    }
+
+	
+}
+
+
+@media only screen and (max-width: 1361px) {
+
+    .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR {
+        
+        select {
+            padding-left: 15px;
+            height: 41px;
+            line-height: 41px;
+            font-size: 13px;
+            background-size: 14px 8px;
+            background-position: 96px 18px;
+        }
+
+    }
+
+    .rezervacije-restorana .dropdown-menu-restorani .search {
+        height: 41px;
+        line-height: 41px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR {
+        width: 28%;
+
+        select {
+            background-position: 165px 18px;
+        }
+
+    }
+
+    .rezervacije-restorana .dropdown-menu-restorani .search {
+        height: 82px;
+        line-height: 82px;
+        margin-top: -41px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR {
+        width: 100%;
+        max-width: 265px;
+        margin: auto;
+    }
+
+    .rezervacije-restorana .dropdown-menu-restorani .search {
+        height: 41px;
+        line-height: 41px;
+        max-width: 265px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .dropdown-menu-restorani {
+        max-width: 265px;
+        margin: auto;
+    }
+
+    .rezervacije-restorana .inner-wrapper-rezervacije-restorana h3 {
+        text-align: center;
+    }
+
+    .rezervacije-restorana .dropdown-menu-restorani .dropdown-menuR select {
+        background-position: 235px 18px;
+    }
+
+    
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+
+    .rezervacije-restorana .dropdown-menu-restorani select {
+        background-image: none;
+    }
+
+
+}

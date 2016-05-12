@@ -1,0 +1,163 @@
+.kartice-za-popuste {
+	
+	background-color: $backgroundMainColor;
+
+	.main-wrapper-kartice {
+		background-color: #fff;
+		padding: 2% 2% 1% 2%;
+	}
+
+	.kartice>p {
+		margin: 20px 0;
+		border-bottom: 1px solid #ebebeb;
+		padding-bottom: 15px;
+	}
+
+	.kartice>p:first-child {
+		color: #339900;
+		font-size: 23px;
+		
+		font-family: Myriad Pro;
+		span {
+			float: right;
+    		width: 19px;
+    		height: 19px;
+    		background: #339900;
+    		border-radius: 50%;
+
+		}
+
+		
+
+	}
+
+	.kartice>p:nth-child(2), .kartice>p:nth-child(3), .kartice>p:nth-child(4), .kartice>p:nth-child(5) {
+		font-size: 18px;
+		font-family: Myriad Pro;
+		color: #999999;
+		.ok-picture {
+			float: left;
+			margin-right: 18px;
+
+		}
+
+		.question-mark {
+			float: right;
+		}
+	}
+
+	h6 {
+		text-align: right;
+		color: #cc3333;
+		font-size: 23px;
+		margin-top: 25px;
+	}
+
+	.grey-picture {
+		background-color: #ebebeb;
+		height: 180px;
+		width: 100%;
+		margin-top: 25px;
+	}
+
+	h5 {
+		color: #cc3333;
+		font-size: 14px;
+		font-family: Myriad Pro;
+		font-weight: 100;
+		margin-top: 25px;
+		font-weight: 100;
+	}
+
+	.silver-kartica>p:first-child {
+		color: #cccccc;
+
+		span {
+			background: #cccccc;
+		}
+
+	}
+
+	.gold-kartica>p:first-child {
+		color: #cccc00;
+
+		span {
+			background: #cccc00;
+		}
+
+	}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1361px) {
+
+	.kartice-za-popuste .kartice > p {
+		font-size: 13px !Important;
+		position: relative;
+	}
+
+	.kartice-za-popuste .kartice > p .ok-picture {
+		margin-right: 7px !Important;
+	    background-size: 14px 10px;
+	    width: 14px;
+	    height: 10px;
+	    
+	}
+
+	.kartice-za-popuste .kartice > p:nth-child(2) .question-mark {
+		position: absolute;
+		right: 0;
+		top: -4px;
+	}
+
+	.kartice-za-popuste h6 {
+		font-size: 18px;
+    	margin-top: 16px;
+	}
+
+	.kartice-za-popuste .grey-picture {
+		margin-top: 18px;
+	}
+
+	.kartice-za-popuste .kartice > p:first-child {
+		font-size: 20px !Important;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+	.gold-kartica, .premium-kartica {
+		margin-top: 20px;
+	}
+
+	.kartice-za-popuste h5 {
+		margin-top: 15px;
+	}
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+	.kartice-za-popuste .main-wrapper-kartice {
+		max-width: 400px !Important;
+		margin: auto;
+	}
+
+	.kartice-za-popuste h5 {
+		margin-top: 10px !Important;
+	}
+
+
+
+}
